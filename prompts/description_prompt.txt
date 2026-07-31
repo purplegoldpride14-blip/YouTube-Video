@@ -1,0 +1,8 @@
+Write me a 500+ word YouTube description based on my transcript.
+Structure it with clear sections. Include every important point covered
+in the video, full names of any people mentioned, any brands or products
+referenced, and any locations or events brought up. Write it in a
+natural, readable way that summarizes the video thoroughly. Do not use
+hashtags. End with a short paragraph that tells the viewer what they
+will learn from watching. Keep it at around 500 words. Provide me a
+downloadable version, clean and ready to paste directly into YouTube.
