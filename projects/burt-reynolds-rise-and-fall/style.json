@@ -1,5 +1,12 @@
 {
-  "style_block": "",
-  "characters": {},
-  "reference_notes": ""
+  "style_block": "Retro 1970s movie-poster anime illustration style, in the vein of vintage Japanese poster art. Bold, clean, confident ink outlines with rich cel-shaded coloring, semi-realistic anime-influenced facial proportions with expressive detailed eyes and sharp confident brows, warm dusty amber and burnt-orange sunset color grading, soft painterly gradients in skies and backgrounds, strong graphic silhouettes, dramatic three-quarter poses, textured painterly matte backgrounds with light film grain, high-contrast rim lighting separating the subject from the background. Palette runs warm gold, amber and burnt orange during scenes of success, cools toward desaturated dusty blue-grey during scenes of collapse and loss, and returns to a warm faded sepia-gold in the final scenes. Cinematic 16:9 composition, bold and readable at small size. No photorealism, no 3D render, no live-action photography, no watermark, no signature, no extra fingers, no distorted limbs, no garbled or misspelled lettering, no readable numbers or markings of any kind, no text anywhere in the image.",
+  "characters": {
+    "YOUNG_BURT": "young Burt Reynolds in his early twenties, lean athletic build, thick dark wavy hair, a strong jaw, wearing a worn 1950s Florida State football jersey",
+    "PEAK_BURT": "Burt Reynolds at the height of his 1970s stardom, a trim muscular build, thick dark mustache, tousled dark brown hair with aviator sunglasses pushed up on top, a confident half smile, wearing an open-collared blue denim shirt with a gold chain necklace",
+    "LATE_BURT": "an aged Burt Reynolds in his final years, silver-white hair, a deeply lined face, a frail thinner frame, wearing a plain cardigan or simple button-down shirt",
+    "SALLY_FIELD": "Sally Field in the 1970s, petite build, soft curled shoulder-length brown hair, warm expressive eyes, wearing a simple period-appropriate blouse",
+    "LONI_ANDERSON": "Loni Anderson, a glamorous platinum-blonde woman with voluminous 1980s styled hair, wearing elegant evening wear",
+    "PT_ANDERSON": "Paul Thomas Anderson as a young 1990s film director, intense focused eyes, short dark hair, wearing a plain crew-neck shirt, often seen behind or beside a film camera"
+  },
+  "reference_notes": "Niche research showed most competing Burt Reynolds rise-and-fall videos lean on real archival photos, which this pipeline cannot use. User first asked for painterly/illustrated/anime, then supplied a reference image: a retro 1970s Japanese-style movie poster of Bandit-era Burt Reynolds leaning on the Trans Am, bold clean ink outlines, cel-shaded coloring, warm dusty sunset palette, semi-realistic anime-influenced proportions. Style block and PEAK_BURT descriptor rewritten to match that reference (aviators pushed up on messy hair, open denim shirt, gold chain). Character descriptors stay split by era (young/peak/late Burt) since the story spans roughly sixty years."
 }
