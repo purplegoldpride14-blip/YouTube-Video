@@ -1,0 +1,309 @@
+[001]    0.54s   4.95s  word 1
+      You are standing in a ballroom in Las Vegas, watching strangers bid on your life.
+
+[002]    5.49s   2.96s  word 16
+      Not photographs. Not memories.
+
+[003]    8.45s   6.88s  word 20
+      The actual objects. A horse and rider statue that once guarded the entrance to your own theater.
+
+[004]   15.33s   4.82s  word 37
+      A stagecoach a country singer built by hand for your wedding day.
+
+[005]   20.15s   4.10s  word 49
+      Numbered lots now, sold to whoever raises a paddle first.
+
+[006]   24.25s   8.83s  word 59
+      Two thousand and fourteen. Burt Reynolds is seventy eight years old, and he is selling the evidence that he used to be the biggest star on earth.
+
+[007]   33.08s   7.56s  word 86
+      The question people ask about Burt Reynolds is how he lost sixty million dollars. That is the wrong question.
+
+[008]   40.64s   6.74s  word 105
+      The real question is why a man who had everything kept building the exact machine that would take it away from him,
+
+[009]   47.38s   3.69s  word 127
+      one decision at a time, for thirty years.
+
+[010]   51.07s   6.03s  word 135
+      Start earlier than the fame. Start with a hospital bed in nineteen fifty seven.
+
+[011]   57.10s   3.69s  word 149
+      Burt Reynolds went to Florida State on a football scholarship,
+
+[012]   60.80s   5.42s  word 159
+      a halfback good enough that people expected something from him before he ever said a word on camera.
+
+[013]   66.21s   4.36s  word 177
+      A knee injury ended one season. He came back anyway.
+
+[014]   70.57s   4.10s  word 187
+      Then a car accident took his spleen and wrecked the same knee a second time,
+
+[015]   74.67s   7.79s  word 202
+      and the football career that was supposed to define him was simply over, at twenty one years old, before it had properly started.
+
+[016]   82.46s   5.65s  word 225
+      Most people would have called that the end of something. Reynolds treated it as a redirection.
+
+[017]   88.11s   6.14s  word 241
+      While he was recovering, a drama teacher at a junior college in Palm Beach cast him in a play almost by accident,
+
+[018]   94.25s   6.26s  word 263
+      and the same certainty that had carried him onto a football field carried him onto a stage instead.
+
+[019]  100.51s   5.44s  word 281
+      He won a state drama award within a year. He never went back to football.
+
+[020]  105.95s   5.21s  word 296
+      That refusal to accept a closed door, the same trait that would eventually cost him everything,
+
+[021]  111.16s   4.15s  word 312
+      is also the exact trait that built him in the first place.
+
+[022]  115.31s   8.66s  word 324
+      A former stuntman he had befriended along the way, a man named Hal Needham, would later hand him a road movie script that nobody else wanted.
+
+[023]  123.97s   8.34s  word 350
+      That script became Smokey and the Bandit. Start the fame itself with the five years nobody has matched since.
+
+[024]  132.31s   7.68s  word 369
+      From nineteen seventy eight to nineteen eighty two, Burt Reynolds was voted the number one box office star in the world.
+
+[025]  139.99s   6.26s  word 390
+      Five years running. Not the highest paid. Not the most nominated.
+
+[026]  146.25s   6.54s  word 401
+      The one people actually paid to see, over and over, more than anyone else alive.
+
+[027]  152.79s   7.22s  word 416
+      It started with Deliverance in nineteen seventy two, a film so raw that people still flinch at one scene decades later,
+
+[028]  160.01s   4.35s  word 437
+      and it turned a stunt man's son from Georgia into an actor.
+
+[029]  164.36s   7.11s  word 449
+      Five years later came Smokey and the Bandit, made with his friend Sally Field for a fraction of what a studio film should cost,
+
+[030]  171.47s   3.69s  word 473
+      and it pulled in more than one hundred million dollars.
+
+[031]  175.16s   7.39s  word 483
+      He was earning four to five million dollars a picture, at a time when that number bought a small studio outright.
+
+[032]  182.55s   7.24s  word 504
+      He had the smile, the drawl, the timing. He had, by every visible measure, won.
+
+[033]  189.79s   6.69s  word 519
+      Here is the open loop. Keep the toupee maker in your head. You will need him later.
+
+[034]  196.49s   6.42s  word 536
+      Because the man who won that hard does not stop moving, and Burt Reynolds did not stop.
+
+[035]  202.90s   4.85s  word 553
+      He poured money into a chain of restaurants that promised steady returns and delivered none,
+
+[036]  207.76s   5.49s  word 568
+      a hole that eventually swallowed something close to thirty million dollars.
+
+[037]  213.24s   7.01s  word 579
+      Then, in nineteen ninety, with his income already thinning, he did something stranger than a bad investment.
+
+[038]  220.25s   8.75s  word 596
+      He borrowed four million dollars from the television network airing his new show, Evening Shade, against money that had not been earned yet.
+
+[039]  229.00s   4.22s  word 619
+      The bet was simple. The show runs long enough to sell into syndication,
+
+[040]  233.22s   5.09s  word 632
+      the syndication money arrives, the loan gets repaid, nobody notices.
+
+[041]  238.31s   5.03s  word 642
+      Evening Shade ran four seasons. Syndication needs five.
+
+[042]  243.34s   3.40s  word 650
+      The show was cancelled one year short of the number that would have saved him,
+
+[043]  246.74s   7.94s  word 665
+      and Burt Reynolds owed the network three million seven hundred thousand dollars he no longer had a way to earn.
+
+[044]  254.68s   4.23s  word 685
+      By December of nineteen ninety six, the math had finished.
+
+[045]  258.91s   8.22s  word 695
+      He filed for bankruptcy with six million six hundred fifty thousand dollars in assets against eleven million two hundred thousand dollars owed.
+
+[046]  267.13s   5.83s  word 717
+      The list of creditors reads like a cross section of an entire industry turning its back at once.
+
+[047]  272.96s   5.57s  word 735
+      The Internal Revenue Service. Chase Bank. His own talent agencies.
+
+[048]  278.53s   5.39s  word 745
+      And, yes, the man who made his toupees, owed one hundred twenty one thousand dollars,
+
+[049]  283.92s   3.94s  word 760
+      because even the illusion of Burt Reynolds had gone unpaid.
+
+[050]  287.86s   4.61s  word 770
+      Picture that filing for a second. Not the number, the room.
+
+[051]  292.47s   4.60s  word 781
+      A man who once earned more per picture than most people would see across an entire lifetime,
+
+[052]  297.07s   6.62s  word 798
+      sitting across from a bankruptcy attorney, listing his own wig maker as a creditor he could not pay.
+
+[053]  303.69s   5.70s  word 816
+      The restaurants were a bad bet. The television loan was a bad bet compounding a worse one.
+
+[054]  309.39s   4.23s  word 833
+      But the toupee bill is the detail that turns a financial story into a human one,
+
+[055]  313.62s   5.66s  word 849
+      because it means the collapse had reached all the way down to the smallest prop of the persona itself,
+
+[056]  319.28s   3.55s  word 868
+      the piece nobody was ever supposed to notice.
+
+[057]  322.83s   4.41s  word 876
+      You would think the money was the wound. It was only the bruise.
+
+[058]  327.24s   7.12s  word 889
+      The deeper cut came from his marriage to Loni Anderson, a wedding built with enough spectacle that a custom stagecoach was part of the gift list,
+
+[059]  334.37s   4.14s  word 915
+      a horse drawn carriage built from scratch and stamped with his own ranch name,
+
+[060]  338.50s   4.94s  word 929
+      as if two people getting married needed a piece of frontier theater to prove it was real.
+
+[061]  343.44s   4.98s  word 946
+      When it ended in nineteen ninety three, the divorce did not just cost him a settlement.
+
+[062]  348.43s   6.37s  word 962
+      During the proceedings he was paying close to two hundred fifty thousand dollars a month just to stay married to a woman he was already losing,
+
+[063]  354.79s   5.89s  word 988
+      before it finally closed with a two million dollar payment and a vacation home handed over on top.
+
+[064]  360.69s   4.16s  word 1006
+      That is the reason that ballroom in Las Vegas existed at all.
+
+[065]  364.85s   4.82s  word 1018
+      By twenty fourteen, with the bankruptcy long behind him but the bleeding never fully stopped,
+
+[066]  369.67s   5.83s  word 1033
+      Burt Reynolds sat down with an auction house and sold the physical proof of the life he used to have,
+
+[067]  375.50s   4.60s  word 1053
+      the horse and rider statue, the wedding stagecoach, piece by piece,
+
+[068]  380.10s   4.58s  word 1064
+      to strangers with paddles, just to stay solvent one more year.
+
+[069]  384.68s   6.34s  word 1075
+      But money was never the thing he actually regretted. Ask him, and he will tell you a different name.
+
+[070]  391.01s   7.83s  word 1094
+      In his own memoir, published two years before he died, Burt Reynolds did not spend his final chapter on the bankruptcy or the auction.
+
+[071]  398.85s   4.34s  word 1118
+      He spent it on Sally Field, the co-star from Smokey and the Bandit,
+
+[072]  403.19s   6.60s  word 1131
+      the woman he was with before Loni Anderson, the one he called, in his own words, the one that got away.
+
+[073]  409.79s   6.08s  word 1152
+      He did not blame the industry, or bad luck, or a network that cancelled a show one season too early.
+
+[074]  415.87s   7.15s  word 1172
+      He blamed himself. I was just an arrogant jerk, he said, and she told me exactly that at the time.
+
+[075]  423.01s   8.65s  word 1192
+      He spent decades as the most wanted man in Hollywood and considered the biggest loss of his life to be a relationship he talked himself out of in his thirties.
+
+[076]  431.67s   8.06s  word 1222
+      And here is the turn nobody sees coming. The same stubbornness that cost him Sally Field almost cost him his last great role.
+
+[077]  439.73s   8.58s  word 1245
+      In the late nineteen nineties, a young director named Paul Thomas Anderson wanted Burt Reynolds for a film about the adult film industry in the nineteen seventies,
+
+[078]  448.31s   3.02s  word 1272
+      playing a director not unlike himself.
+
+[079]  451.32s   3.84s  word 1278
+      Reynolds said no. He said no seven times.
+
+[080]  455.17s   6.64s  word 1286
+      He called the material uncomfortable, said it was not his kind of film, and meant it every time he said it.
+
+[081]  461.81s   5.44s  word 1307
+      Paul Thomas Anderson did not argue about the money or the prestige. He told him one sentence.
+
+[082]  467.25s   6.56s  word 1324
+      Play it exactly like this, and it will win you an award. Reynolds finally agreed.
+
+[083]  473.81s   4.85s  word 1339
+      The film was Boogie Nights, and the performance earned him his only Academy Award nomination,
+
+[084]  478.65s   5.98s  word 1354
+      at sixty one years old, playing a version of the ambition he understood better than anyone in that room.
+
+[085]  484.63s   6.40s  word 1373
+      It should have been the second act. It was not. The years after Boogie Nights were not a rebuilding.
+
+[086]  491.04s   5.83s  word 1392
+      They were a slow, quiet subtraction. A quintuple heart bypass in two thousand ten.
+
+[087]  496.87s   6.89s  word 1406
+      Smaller parts, smaller paychecks, the syndication money from decades earlier long since spent.
+
+[088]  503.76s   7.97s  word 1419
+      On September sixth, two thousand eighteen, Burt Reynolds suffered a heart attack in a Florida hospital and died at eighty two years old.
+
+[089]  511.73s   6.35s  word 1442
+      His niece said the family knew he had been unwell for years, and still, somehow, this was unexpected.
+
+[090]  518.08s   5.34s  word 1460
+      By the end he weighed under one hundred pounds, and could not walk into a room without someone holding him up,
+
+[091]  523.41s   3.78s  word 1481
+      the same body that once outran police cars on camera for a living.
+
+[092]  527.20s   5.88s  word 1494
+      The man who was the most wanted person in America for five straight years ended up needing help to stand.
+
+[093]  533.08s   6.54s  word 1514
+      Think back to that hospital bed in nineteen fifty seven, the one that was supposed to end his story before it began.
+
+[094]  539.62s   8.96s  word 1536
+      Nobody in that room could have told you it would lead to Deliverance, or Smokey and the Bandit, or a Las Vegas ballroom, or an Oscar nomination he almost refused.
+
+[095]  548.58s   2.88s  word 1566
+      That is the part a highlight reel leaves out.
+
+[096]  551.46s   8.32s  word 1575
+      The same refusal to accept a closed door that turned a ruined football career into an acting career was never a switch he could turn off once it had made him famous.
+
+[097]  559.77s   8.03s  word 1607
+      It does not ask permission. It cannot tell the difference between a knee injury worth fighting through and a restaurant chain worth walking away from.
+
+[098]  567.81s   6.46s  word 1632
+      So the real question was never how Burt Reynolds lost sixty million dollars. Anyone can lose money.
+
+[099]  574.27s   7.43s  word 1649
+      The real question is what it costs a person to be that certain of himself for that long. Certain enough to bet on restaurants.
+
+[100]  581.70s   8.88s  word 1673
+      Certain enough to borrow against a show that had not sold yet. Certain enough to walk away from the one person he later admitted he actually loved.
+
+[101]  590.58s   8.30s  word 1700
+      Burt Reynolds spent his entire career playing men who never doubted themselves for a second. It turns out that was never a performance.
+
+[102]  598.88s   8.52s  word 1723
+      It was the one role he could not put down when the cameras stopped rolling, and it is the only one that ever actually cost him something he could not buy back with a horse and rider statue,
+
+[103]  607.40s   8.12s  word 1761
+      or a settlement check, or an Oscar nomination arriving twenty years too late to change the ending he had already written for himself back in that hospital bed in nineteen fifty seven.
+
