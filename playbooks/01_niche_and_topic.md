@@ -1,4 +1,4 @@
-# Stage 1-2 — niche, then topic
+# Stage 1-2 — niche, then topic and title
 
 ## 1. Ask for the niche
 
@@ -74,3 +74,20 @@ choose its best five facts instead of using all nine.
 
 Keep the research notes separate from the script. They are not the transcript,
 and the description stage later depends on that distinction being real.
+
+## 4. Pick the title
+
+Do this now, off the research just gathered — not later, and not by guessing
+at the end when the description and thumbnail get written. Propose three to
+five title options, each grounded in a specific beat or number from the
+research (the way a working title differs from a generic one), and close with:
+
+> Pick a number, or write your own title.
+
+This is not one of the two hard approval gates, so a quick pick-or-write-in is
+enough — no need to stall the rest of the pipeline waiting on it. Save the
+result immediately:
+
+```bash
+python3 new_project.py <slug> --title "..."
+```

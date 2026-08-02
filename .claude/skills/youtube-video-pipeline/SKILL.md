@@ -45,12 +45,21 @@ approved, generate all remaining scenes automatically with no continuation promp
 
 1. **Niche.** `playbooks/01_niche_and_topic.md`. Menu plus a write-in option;
    accept reference images or links.
-2. **Topic.** Research the niche for what is currently over-performing, propose
-   ten ideas, wait. Then research the chosen topic properly, with sources.
+2. **Topic and title.** Research the niche for what is currently
+   over-performing, propose ten ideas, wait. Then research the chosen topic
+   properly, with sources. Once the topic is settled (picked from the ten or
+   written in), immediately propose three to five title options built from
+   that research and ask the user to pick one or write their own. Save it to
+   `project.json` under `title` via `new_project.py ... --title "..."` before
+   moving on to the script. Do not defer this to the description/thumbnail
+   stage - the title is chosen here, not guessed at the end.
 3. **Script.** `playbooks/02_script.md`. 1,800-1,900 words. Then:
    `python3 script_check.py <script.txt> ../projects/<slug> --fix`
-4. **Narration.** The user generates the audio, same voice settings for every
-   part, and drops the files in `projects/<slug>/audio/`. Then:
+4. **Narration.** The user generates the audio with OpenArt's own
+   "Create Voice Over" feature (ElevenLabs voices, in the OpenArt app - this is
+   not reachable through the OpenArt MCP tools available here, only
+   `openart_generate_image`/`openart_generate_video` are), same voice settings
+   for every part, and drops the files in `projects/<slug>/audio/`. Then:
    `python3 audio_merge.py ../projects/<slug>/audio ../projects/<slug>`
    This verifies part order by measured speech rate, merges losslessly, and
    raises the volume to -14 LUFS.
