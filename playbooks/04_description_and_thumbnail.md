@@ -62,4 +62,7 @@ only one that decides whether anything else gets watched. If it is rejected, ask
 what to change, regenerate, and ask again. Loop until it is approved — this
 approval is not one of the two hard gates, but it is not optional either.
 
-Save the winning prompt to `thumbnail_prompt_used.txt` in the project folder.
+Save the winning prompt to `thumbnail_prompt_used.txt` in the project folder,
+and save the approved image itself to `out/thumbnail.png`. Both are needed by
+the delivery stage that follows (`SKILL.md` stage 13) - the prompt is tracked
+in git normally, the image is force-added since `out/` is gitignored.

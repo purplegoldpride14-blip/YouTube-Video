@@ -67,6 +67,13 @@ VIDEO_PRESET = "medium"
 MOTION_DEFAULT = "none"   # "none" | "kenburns"
 KENBURNS_ZOOM = 1.08      # 8% travel over the life of a scene
 
+# ---------- delivery ----------
+# GitHub hard-blocks a pushed blob over 100 MB. Stay well under that so a push
+# never fails partway through.
+GIT_PUSH_MAX_BYTES = 95_000_000
+# SendUserFile hard-caps at 30 MiB per file. Stay under that with margin.
+CHAT_CHUNK_BYTES = 25 * 1024 * 1024
+
 # ---------- required network domains ----------
 # Must be allowlisted BEFORE the run starts. Cannot be changed mid-session.
 REQUIRED_DOMAINS = ["storage.googleapis.com", "cdn.openart.ai"]

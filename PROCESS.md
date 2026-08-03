@@ -45,6 +45,9 @@ python3 manifest.py status ../projects/<slug>
 
 python3 assemble.py ../projects/<slug> [--motion kenburns]
 python3 description_check.py ../projects/<slug>/description.md ../projects/<slug>/project.json
+
+# after the thumbnail is approved and saved to out/thumbnail.png
+python3 deliver.py ../projects/<slug>
 ```
 
 ---
@@ -157,6 +160,7 @@ pipeline/              deterministic stages, all resumable, stdlib only
   manifest.py            resumable image batch bookkeeping
   assemble.py            frames + audio -> mp4, optional ken burns
   description_check.py   character cap and hashtag policy
+  deliver.py              verify deliverables, split final.mp4 if over the git push limit
 playbooks/             the editorial half, one file per decision
 prompts/               the two standing prompts, used verbatim
 projects/<slug>/

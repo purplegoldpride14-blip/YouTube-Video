@@ -13,9 +13,11 @@ python3 preflight.py                       # always first; installs ffmpeg if ne
 python3 new_project.py my-first-video --niche "History"
 ```
 
-Then follow the skill. It runs twelve stages with two approval gates: you pick
+Then follow the skill. It runs thirteen stages with two approval gates: you pick
 the topic from ten researched ideas, and you approve the visual style off scene 1.
-Everything between and after those runs without check-ins.
+Everything between and after those runs without check-ins, including the final
+push of the description, captions, thumbnail and video to your repo (or, past
+GitHub's size limit, to chat in chunks).
 
 ## What's here
 
@@ -25,7 +27,7 @@ Everything between and after those runs without check-ins.
 | `PROCESS.md` | the spec, and why each rule exists |
 | `playbooks/` | the editorial half: niche, script, style, description, thumbnail |
 | `prompts/` | the two standing prompts, used verbatim |
-| `pipeline/` | the deterministic half: eleven stdlib-only scripts |
+| `pipeline/` | the deterministic half: twelve stdlib-only scripts |
 | `projects/` | one folder per video; media is gitignored |
 
 ## Requirements
@@ -51,3 +53,4 @@ No pip installs. Everything in `pipeline/` is stdlib.
 | 10 | assemble | `assemble.py ../projects/<slug> [--motion kenburns]` |
 | 11 | description | `description_check.py ../projects/<slug>/description.md` |
 | 12 | thumbnail, approved by you | `playbooks/04_description_and_thumbnail.md` |
+| 13 | deliver: push to repo, or chat in chunks past the git size limit | `deliver.py ../projects/<slug>` |

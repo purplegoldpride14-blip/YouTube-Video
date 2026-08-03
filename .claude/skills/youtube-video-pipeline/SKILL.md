@@ -87,7 +87,27 @@ approved, generate all remaining scenes automatically with no continuation promp
     never on the research notes, then run `description_check.py`.
 12. **Thumbnail.** Use `prompts/thumbnail_prompt.txt` verbatim. It asks you to
     write an image prompt; that prompt is what goes to OpenArt. Show it, and
-    regenerate until approved.
+    regenerate until approved. Save the approved image itself to
+    `projects/<slug>/out/thumbnail.png` (not just the prompt).
+13. **Deliver.** Once the thumbnail is approved, run:
+    `python3 deliver.py ../projects/<slug>`
+    It verifies `description.md`, `out/captions.srt`, `out/thumbnail.png` and
+    `out/final.mp4` all exist, then checks the video against
+    `GIT_PUSH_MAX_BYTES`. `out/` is gitignored by default (generated media
+    never belongs in git), so this step always needs `-f`:
+    - **Under the limit:** `git add -f description.md out/captions.srt
+      out/thumbnail.png out/final.mp4`, commit, push. The video ships in the
+      repo alongside everything else.
+    - **Over the limit:** `deliver.py` splits it into
+      `out/chunks/final.mp4.part_NNN` files and writes a `.sha256` next to
+      them. `git add -f description.md out/captions.srt out/thumbnail.png`
+      (never the oversized video), commit, push, then send the chunk files to
+      the user via chat (batch several per message) along with the sha256 and
+      the reassembly command (`cat final.mp4.part_* > final.mp4`, or on
+      Windows `copy /b`). Never attempt to push a blob over the limit -
+      GitHub hard-rejects it and wastes the whole push.
+    This is bookkeeping, not judgement - do it without asking, the same way
+    the earlier deterministic stages run without check-ins.
 
 ## Resuming
 
