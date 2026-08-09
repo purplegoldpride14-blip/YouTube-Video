@@ -1,0 +1,324 @@
+[001]    0.48s   8.78s  word 1
+      If you asked Burt Reynolds, near the end of his life, to name his biggest regret, it was not a movie he turned down or a stunt that went wrong.
+
+[002]    9.26s   5.30s  word 31
+      It was one woman, and one relationship he ended more than three decades earlier.
+
+[003]   14.56s   4.31s  word 45
+      In twenty fifteen, at the peak of writing his own life story,
+
+[004]   18.87s   5.27s  word 57
+      Reynolds sat down to publish a memoir called But Enough About Me.
+
+[005]   24.14s   6.55s  word 69
+      He could have filled it with car chases, cowboy hats, and the biggest box office years of his career.
+
+[006]   30.69s   8.31s  word 88
+      Instead, he gave an entire chapter to a woman he had not spoken to in years. He called her the love of his life.
+
+[007]   39.00s   8.82s  word 112
+      He called her the one who got away, and he kept saying it, in interview after interview, until the phrase followed him into his own obituaries.
+
+[008]   47.82s   5.87s  word 138
+      Here is the question worth asking. Not whether Burt Reynolds loved Sally Field.
+
+[009]   53.69s   8.06s  word 151
+      He said that part out loud, in print, on camera, for decades, and nobody who watched him say it ever doubted he meant it.
+
+[010]   61.75s   4.33s  word 175
+      The real question is why the woman he was describing kept saying, in her own words,
+
+[011]   66.08s   5.24s  word 191
+      that the man in his memory was not quite the man she remembered living with.
+
+[012]   71.32s   3.77s  word 206
+      The story starts on a film set in nineteen seventy six.
+
+[013]   75.09s   4.18s  word 217
+      Reynolds was already one of the biggest box office draws in the country.
+
+[014]   79.27s   5.83s  word 230
+      Field was known mostly for television, for the girl next door parts that had followed her since she was a teenager,
+
+[015]   85.11s   3.68s  word 251
+      and she was hungry to be taken seriously as an actress.
+
+[016]   88.78s   8.11s  word 262
+      They were cast opposite each other in a car chase comedy nobody expected to become a phenomenon, a movie called Smokey and the Bandit.
+
+[017]   96.89s   7.15s  word 286
+      They had known each other only a handful of days before the chemistry became obvious to everyone standing near the camera.
+
+[018]  104.05s   4.88s  word 307
+      Reynolds later said it felt less like four days and more like four years.
+
+[019]  108.93s   3.98s  word 321
+      Field, in her own telling, felt the same electricity,
+
+[020]  112.90s   5.92s  word 330
+      the same sense that something had clicked into place faster than either of them could explain.
+
+[021]  118.83s   8.93s  word 346
+      The movie became one of the highest grossing films of the year, beaten at the box office only by a new space adventure called Star Wars.
+
+[022]  127.75s   6.41s  word 372
+      Off camera, the two leads became one of Hollywood's most watched couples, photographed constantly,
+
+[023]  134.16s   6.82s  word 386
+      asked about constantly, and for a while, the public romance looked exactly like the on screen one.
+
+[024]  140.99s   5.39s  word 403
+      Magazine covers wanted them together. Talk shows wanted them together.
+
+[025]  146.38s   5.82s  word 413
+      Reynolds was, at that point, arguably the single biggest movie star working anywhere in the world,
+
+[026]  152.20s   7.31s  word 429
+      and the fact that he had chosen his co star, in real life, over any of the other women he could have been photographed with,
+
+[027]  159.51s   5.21s  word 454
+      only made the story more irresistible to the public that was watching from the outside.
+
+[028]  164.72s   8.15s  word 469
+      Over the next five years, they made three more films together, Hooper, The End, and Smokey and the Bandit Two.
+
+[029]  172.87s   4.28s  word 489
+      On screen, the pairing worked every single time.
+
+[030]  177.15s   4.43s  word 497
+      Audiences kept buying the romance because, for a while, it was real.
+
+[031]  181.57s   3.43s  word 509
+      Reynolds proposed marriage more than once during those years.
+
+[032]  185.00s   5.59s  word 518
+      Field turned him down every time, and later said she always sensed his heart was not fully behind the offer,
+
+[033]  190.60s   4.91s  word 538
+      that some part of him wanted the idea of a wife more than the reality of one.
+
+[034]  195.50s   6.16s  word 555
+      That detail matters, because it is the first sign that the two of them were not living inside the same relationship,
+
+[035]  201.66s   8.47s  word 576
+      even while they were living inside the same house, sharing the same films, and being photographed by the same cameras.
+
+[036]  210.13s   7.91s  word 596
+      For a few years, the cracks stayed almost entirely private. Then came the movie that ended things for good.
+
+[037]  218.04s   5.67s  word 615
+      In nineteen seventy nine, Field was offered the lead role in a small drama called Norma Rae,
+
+[038]  223.71s   4.91s  word 632
+      about a textile worker who organizes her factory into a union.
+
+[039]  228.62s   6.96s  word 643
+      It was nothing like the glossy comedies that had made her famous, and nothing like anything Reynolds wanted for her.
+
+[040]  235.57s   5.94s  word 663
+      According to Field's own account, he objected to the character, made a demeaning comment about the woman's past,
+
+[041]  241.51s   4.17s  word 681
+      and threw the script back at her rather than simply saying no.
+
+[042]  245.69s   6.22s  word 693
+      When she pushed back and said she wanted the part anyway, he told her she was letting the whole thing get the better of her,
+
+[043]  251.91s   4.52s  word 718
+      as though wanting to stretch as an actress was some kind of overreaction.
+
+[044]  256.43s   4.54s  word 731
+      Field took the role anyway. She met with the director, signed on,
+
+[045]  260.96s   7.19s  word 743
+      and spent weeks on a factory floor playing a woman with nothing in common with the parts that had made her rich and famous.
+
+[046]  268.15s   6.10s  word 767
+      Reynolds, by her account, then tried to keep her from attending the film's premiere at the Cannes Film Festival,
+
+[047]  274.25s   3.76s  word 786
+      the kind of moment that could define a career.
+
+[048]  278.01s   5.67s  word 795
+      She went regardless. Norma Rae won her the first of two Academy Awards for Best Actress,
+
+[049]  283.69s   5.88s  word 811
+      and it happened despite the man she was living with, not because of any support from him.
+
+[050]  289.56s   5.51s  word 828
+      That was the real turning point, more than the awards ceremony itself.
+
+[051]  295.07s   4.39s  word 840
+      For years, Field had been introduced as the woman in Burt Reynolds' movies,
+
+[052]  299.46s   4.62s  word 853
+      and by extension, the woman in Burt Reynolds' life.
+
+[053]  304.08s   7.88s  word 862
+      Norma Rae was the first time she stepped fully into her own identity as an actress, on her own terms, against his objections.
+
+[054]  311.96s   5.60s  word 885
+      Field later said that experience marked the beginning of her pulling away from the relationship for good.
+
+[055]  317.56s   5.28s  word 902
+      They stayed together off and on for a little while longer, drifting rather than deciding,
+
+[056]  322.84s   5.99s  word 917
+      but the ending was already written the moment she walked onto that factory set without his blessing.
+
+[057]  328.83s   5.22s  word 934
+      In nineteen eighty two, they split for the final time.
+
+[058]  334.05s   8.51s  word 944
+      Here is where most love stories from old Hollywood would end, with a breakup, a few gossip columns, and two people quietly moving on with their lives.
+
+[059]  342.56s   6.48s  word 971
+      This one kept going for another thirty years, in two completely different directions,
+
+[060]  349.04s   8.54s  word 984
+      told by two people who had lived through the exact same five years and somehow walked away remembering two different relationships.
+
+[061]  357.57s   3.95s  word 1005
+      Reynolds never let go of the story he had built about those years.
+
+[062]  361.52s   6.29s  word 1018
+      In interview after interview, well into his seventies, he called Field the love of his life, unprompted,
+
+[063]  367.81s   6.22s  word 1035
+      long after either of them had married other people and moved on in every visible way.
+
+[064]  374.03s   7.61s  word 1051
+      He told one reporter that he did four movies with her, spent five years with her, and that she was the one who got away.
+
+[065]  381.64s   4.52s  word 1076
+      He called ending the relationship one of the biggest disappointments of his life.
+
+[066]  386.17s   6.01s  word 1089
+      In his memoir, he devoted pages to their romance, to the chemistry that first sparked on a film set,
+
+[067]  392.17s   5.41s  word 1108
+      and to a regret that apparently never faded no matter how much time passed.
+
+[068]  397.58s   7.50s  word 1122
+      When journalists brought his comments back to Field, her answers were careful at first, and grew more direct over time.
+
+[069]  405.08s   7.40s  word 1142
+      She said she was flattered, in the beginning, that a man once so famous kept naming her as his greatest love.
+
+[070]  412.49s   4.82s  word 1163
+      She also said Reynolds was, in her words, a complicated man,
+
+[071]  417.31s   6.08s  word 1174
+      a phrase she used often enough that it started to sound like a warning rather than a compliment.
+
+[072]  423.38s   3.94s  word 1192
+      Later, promoting her own memoir, she went further still.
+
+[073]  427.32s   3.73s  word 1201
+      She said Reynolds had reimagined the relationship in his own retelling,
+
+[074]  431.06s   5.98s  word 1212
+      that she had not been as important to him in real time as he later claimed once she was gone.
+
+[075]  437.03s   5.53s  word 1232
+      She suggested, gently but pointedly, that he simply wanted, in hindsight,
+
+[076]  442.56s   4.70s  word 1243
+      to have had the thing he never fully had while they were actually together.
+
+[077]  447.26s   6.63s  word 1257
+      Then, in twenty eighteen, Field published her own memoir, called In Pieces.
+
+[078]  453.89s   5.54s  word 1269
+      It told a very different story than the one Reynolds had spent decades repeating in public.
+
+[079]  459.43s   3.24s  word 1285
+      Field wrote that their relationship was often controlling,
+
+[080]  462.68s   6.68s  word 1293
+      and emotionally difficult in ways she had not fully understood or been able to name at the time it was happening.
+
+[081]  469.35s   5.59s  word 1314
+      She connected it to her own childhood, describing years of sexual abuse by her stepfather,
+
+[082]  474.94s   6.72s  word 1329
+      the actor and stuntman Jock Mahoney, and suggested that part of what drew her toward Reynolds may have been an old,
+
+[083]  481.66s   5.80s  word 1350
+      familiar pattern rooted in that childhood she was still quietly trying to survive.
+
+[084]  487.45s   8.84s  word 1363
+      She also wrote about his struggles with drugs and his declining health, details Reynolds himself had spent years keeping carefully out of public view.
+
+[085]  496.29s   4.78s  word 1387
+      Perhaps the single most striking detail in the whole story is this.
+
+[086]  501.07s   6.05s  word 1399
+      Field revealed that she had not spoken to Reynolds for roughly the last thirty years of his life.
+
+[087]  507.12s   4.76s  word 1417
+      Not a phone call. Not a reunion. Nothing at all.
+
+[088]  511.88s   8.02s  word 1427
+      All while he continued, publicly and repeatedly, to describe her as the love of his life to anyone who would listen.
+
+[089]  519.90s   5.87s  word 1448
+      Reynolds died in twenty eighteen, the same year Field's memoir was released.
+
+[090]  525.77s   6.82s  word 1460
+      Asked about his death, she said he would remain in her history and in her heart for as long as she lived,
+
+[091]  532.60s   6.78s  word 1482
+      a careful, generous sentence from a woman who had just spent an entire book explaining why she needed to leave him.
+
+[092]  539.38s   8.87s  word 1503
+      She also said, plainly, that she was glad he would never read what she had written about their years together, because it would have hurt him.
+
+[093]  548.24s   2.76s  word 1529
+      So which version is true?
+
+[094]  551.00s   4.73s  word 1534
+      The love story he never stopped telling for the rest of his life, or the difficult,
+
+[095]  555.74s   5.84s  word 1550
+      complicated years she finally described fully on her own terms, decades later?
+
+[096]  561.58s   6.82s  word 1562
+      The honest answer is that both were true, at the same time, for the two people who lived them.
+
+[097]  568.39s   6.29s  word 1581
+      Reynolds spent the second half of his life mourning a version of their romance frozen at its very best moment,
+
+[098]  574.69s   4.92s  word 1601
+      the four days on a film set that felt like four years.
+
+[099]  579.60s   5.08s  word 1613
+      Field spent those same decades trying to explain, mostly to herself,
+
+[100]  584.68s   7.91s  word 1624
+      why she had needed to leave a relationship that looked, from the outside, like the greatest love story Hollywood ever filmed.
+
+[101]  592.59s   7.97s  word 1645
+      He called her the one who got away. She called it something closer to a pattern she finally recognized and escaped.
+
+[102]  600.56s  10.12s  word 1666
+      Maybe the real ending is that Hollywood's most famous unrequited love story was never actually about two people missing each other across thirty years of silence.
+
+[103]  610.68s   8.13s  word 1692
+      It was about one person who never stopped writing the same script in his head, revising the same five years until they matched the ending he wished he had,
+
+[104]  618.82s   8.77s  word 1721
+      and one person who had already closed the book, put it on a shelf, and built an entirely different life around the space where he used to be.
+
+[105]  627.58s   5.88s  word 1749
+      Two people, one relationship, and thirty years of silence in between.
+
+[106]  633.47s   3.25s  word 1760
+      Reynolds spent his telling the world what he lost.
+
+[107]  636.72s   5.38s  word 1769
+      Field spent hers finally telling the world what it actually cost her to leave.
+
+[108]  642.09s   7.28s  word 1783
+      Only one of them ever got to hear the other's version, and by the time hers reached the world, he was already gone.
+

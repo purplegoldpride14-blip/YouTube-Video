@@ -1,5 +1,8 @@
 {
-  "style_block": "",
-  "characters": {},
-  "reference_notes": ""
+  "style_block": "Anime and manga illustration style, cel-shaded, clean confident linework, expressive eyes, dramatic cinematic lighting with warm rim light. Nostalgic 1970s and 1980s Hollywood setting, warm amber and burnt-orange palette with deep teal shadows, soft film-grain texture over the illustration, subtle lens flare and bokeh on background lights. Backgrounds are richly detailed, painterly matte environments, film sets, red carpets, dressing rooms, sunlit interiors, with soft depth of field so the foreground character reads clearly. Cinematic 16:9 composition, bold silhouettes, emotionally expressive poses and framing. No photorealism, no 3D render, no live action photography, no watermark, no signature, no extra fingers, no distorted limbs, no garbled or misspelled lettering, no text anywhere in the image.",
+  "characters": {
+    "LEADING_MAN": "an anime style leading man character inspired by a rugged 1970s film star, thick dark mustache, wavy dark brown hair, tan skin, warm brown eyes, easy charming smile, often in an open-collar shirt or denim jacket",
+    "LEADING_WOMAN": "an anime style leading woman character inspired by a spirited 1970s film actress, warm chestnut wavy shoulder-length hair, large expressive brown eyes, freckled cheeks, petite build, dressed in era-accurate 1970s fashion like turtlenecks and wide-collar blouses"
+  },
+  "reference_notes": "User requested anime illustrated style for the Burt Reynolds and Sally Field story. Character descriptors are written as archetypal 1970s movie-star figures rather than exact photographic likenesses, matching how the anime medium itself already stylizes real people."
 }
