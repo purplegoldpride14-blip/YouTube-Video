@@ -1,0 +1,12 @@
+[
+  {"name": "01_the_setup", "first_scene": 1, "last_scene": 11},
+  {"name": "02_meet_cute", "first_scene": 16, "last_scene": 21},
+  {"name": "03_the_proposal", "first_scene": 31, "last_scene": 35},
+  {"name": "04_norma_rae_defiance", "first_scene": 39, "last_scene": 49},
+  {"name": "05_he_never_let_go", "first_scene": 61, "last_scene": 67},
+  {"name": "06_she_pushes_back", "first_scene": 68, "last_scene": 76},
+  {"name": "07_the_memoir_reveal", "first_scene": 77, "last_scene": 84},
+  {"name": "08_thirty_years_of_silence", "first_scene": 85, "last_scene": 93},
+  {"name": "09_which_version_is_true", "first_scene": 94, "last_scene": 100},
+  {"name": "10_the_real_ending", "first_scene": 101, "last_scene": 108}
+]

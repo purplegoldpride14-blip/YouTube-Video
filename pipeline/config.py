@@ -67,6 +67,17 @@ VIDEO_PRESET = "medium"
 MOTION_DEFAULT = "none"   # "none" | "kenburns"
 KENBURNS_ZOOM = 1.08      # 8% travel over the life of a scene
 
+# ---------- shorts ----------
+SHORTS_WIDTH = 1080
+SHORTS_HEIGHT = 1920
+SHORTS_FONT = "DejaVu Sans"
+SHORTS_FONT_SIZE = 58
+SHORTS_BLUR_SIGMA = 22        # background blur strength behind the letterboxed clip
+SHORTS_BG_DARKEN = -0.08      # eq brightness applied to the blurred background
+SHORTS_MIN_SEC = 15           # below this, a clip is too thin to stand alone - WARN
+SHORTS_SOFT_MAX_SEC = 90      # above this, retention drops off - WARN
+SHORTS_HARD_MAX_SEC = 180     # YouTube Shorts' technical cap - FAIL
+
 # ---------- delivery ----------
 # GitHub hard-blocks a pushed blob over 100 MB. Stay well under that so a push
 # never fails partway through.

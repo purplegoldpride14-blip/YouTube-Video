@@ -3,12 +3,13 @@ name: youtube-video-pipeline
 description: >
   Produce a full narrated YouTube video end to end for any niche - niche and
   topic selection, research, script, narration audio, aligned SRT, scene plan,
-  visual style, image batch, assembly, description and thumbnail. Use when the
-  user wants to make a new video, resume an interrupted one, or run any single
-  stage (script check, audio merge, SRT build, scene plan, image batch,
-  assembly, description, thumbnail). Trigger on "new video", "make a video",
-  "resume <slug>", or a request to write a script, build an SRT, plan scenes or
-  assemble a video for a channel.
+  visual style, image batch, assembly, description, thumbnail, and highlight
+  Shorts cut from the finished video. Use when the user wants to make a new
+  video, resume an interrupted one, or run any single stage (script check,
+  audio merge, SRT build, scene plan, image batch, assembly, description,
+  thumbnail, Shorts). Trigger on "new video", "make a video", "resume <slug>",
+  or a request to write a script, build an SRT, plan scenes, assemble a video,
+  or cut Shorts/clips from one, for a channel.
 ---
 
 # YouTube video pipeline
@@ -95,25 +96,48 @@ approved, generate all remaining scenes automatically with no continuation promp
     write an image prompt; that prompt is what goes to OpenArt. Show it, and
     regenerate until approved. Save the approved image itself to
     `projects/<slug>/out/thumbnail.png` (not just the prompt).
-13. **Deliver.** Once the thumbnail is approved, run:
+13. **Shorts.** Once the video is assembled, look for moments strong enough to
+    stand alone as a YouTube Short - a self-contained hook, reveal, quote, or
+    turn that doesn't need the surrounding context. Skip anything that only
+    works with setup from earlier in the video; a thin clip is worse than no
+    clip. For each one, write an entry to `shorts.json` in the project
+    directory:
+    ```json
+    [{"name": "01_the_setup", "first_scene": 1, "last_scene": 11}]
+    ```
+    `first_scene`/`last_scene` are scene numbers from `out/scenes.json`, so
+    every clip opens and closes on the same sentence-end boundaries the main
+    edit already uses. Then:
+    `python3 make_shorts.py ../projects/<slug>`
+    This cuts each range out of `out/final.mp4`, reformats to vertical 9:16
+    with a blurred letterboxed background, and burns in the matching captions
+    - writing `out/shorts/<name>.mp4`. It warns on a clip outside
+    `SHORTS_MIN_SEC`/`SHORTS_SOFT_MAX_SEC` and fails outside
+    `SHORTS_HARD_MAX_SEC`; fix by narrowing the scene range, not by editing
+    config. No approval gate - Shorts are a bonus deliverable, not the
+    thumbnail decision.
+14. **Deliver.** Once the thumbnail is approved and any Shorts are cut, run:
     `python3 deliver.py ../projects/<slug>`
-    It verifies `description.md`, `out/captions.srt`, `out/thumbnail.png` and
-    `out/final.mp4` all exist, then checks the video against
+    It verifies `description.md`, `narration_part*.txt`, `out/captions.srt`,
+    `out/thumbnail.png` and `out/final.mp4` all exist, mirrors
+    `description.md` and the narration files into `out/` so that folder is the
+    single handoff location for everything the user takes elsewhere, then
+    checks `out/final.mp4` and every `out/shorts/*.mp4` against
     `GIT_PUSH_MAX_BYTES`. `out/` is gitignored by default (generated media
     never belongs in git), so this step always needs `-f`:
-    - **Under the limit:** `git add -f description.md out/captions.srt
-      out/thumbnail.png out/final.mp4`, commit, push. The video ships in the
-      repo alongside everything else.
-    - **Over the limit:** `deliver.py` splits it into
-      `out/chunks/final.mp4.part_NNN` files and writes a `.sha256` next to
-      them. `git add -f description.md out/captions.srt out/thumbnail.png`
-      (never the oversized video), commit, push, then send the chunk files to
-      the user via chat (batch several per message) along with the sha256 and
-      the reassembly command (`cat final.mp4.part_* > final.mp4`, or on
-      Windows `copy /b`). Never attempt to push a blob over the limit -
-      GitHub hard-rejects it and wastes the whole push.
-    This is bookkeeping, not judgement - do it without asking, the same way
-    the earlier deterministic stages run without check-ins.
+    - **Under the limit:** git-add the file as-is alongside the rest.
+    - **Over the limit:** `deliver.py` splits it into `<name>.part_NNN` files
+      next to it (`out/chunks/` for the main video, `out/shorts/chunks/` for a
+      Short) and writes a `.sha256` next to them. Never git-add the oversized
+      original. Send the chunk files to the user via chat (batch several per
+      message) along with the sha256 and the reassembly command
+      (`cat <name>.part_* > <name>`, or on Windows `copy /b`). Never attempt
+      to push a blob over the limit - GitHub hard-rejects it and wastes the
+      whole push.
+    `deliver.py`'s own output lists exactly which paths are git-addable and
+    which need chat delivery - follow it rather than reconstructing the list
+    by hand. This is bookkeeping, not judgement - do it without asking, the
+    same way the earlier deterministic stages run without check-ins.
 
 ## Resuming
 

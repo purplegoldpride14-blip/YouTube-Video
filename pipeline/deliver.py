@@ -2,22 +2,30 @@
 """
 Prepare the finished project for handoff.
 
-Does three things, in order:
-1. Verifies the deliverables exist: description.md, out/captions.srt,
-   out/thumbnail.png, out/final.mp4.
-2. Checks out/final.mp4 against GIT_PUSH_MAX_BYTES. Under the limit, it is
-   left alone - the agent git-adds it (with -f, since out/ is gitignored)
-   alongside the other three and pushes.
-3. Over the limit, splits it into CHAT_CHUNK_BYTES pieces under
-   out/chunks/, plus a sha256 of the original so the recipient can verify a
-   reassembly. This script never touches git and never sends anything to
-   chat - both are agent actions, not scripted ones.
+Does four things, in order:
+1. Verifies the deliverables exist: description.md, narration_part*.txt,
+   out/captions.srt, out/thumbnail.png, out/final.mp4.
+2. Mirrors description.md and narration_part*.txt into out/, so out/ is the
+   one folder with everything the user actually takes elsewhere - video,
+   thumbnail, captions, description, narration, and any Shorts. The originals
+   at the project root are untouched; other stages (audio_merge.py,
+   description_check.py) still read from there.
+3. Checks out/final.mp4 and every out/shorts/*.mp4 against GIT_PUSH_MAX_BYTES.
+   Anything under the limit is left alone for the agent to git-add (with -f,
+   since out/ is gitignored) and push. Anything over the limit is split into
+   CHAT_CHUNK_BYTES pieces under out/chunks/ (or out/shorts/chunks/ for a
+   short), plus a sha256 of the original so the recipient can verify a
+   reassembly.
+4. Never touches git and never sends anything to chat - both are agent
+   actions, not scripted ones.
 
 Usage:
     python3 deliver.py <project_dir>
 """
 import sys
 import os
+import glob
+import shutil
 import hashlib
 
 from config import GIT_PUSH_MAX_BYTES, CHAT_CHUNK_BYTES
@@ -52,12 +60,27 @@ def split_file(src, dest_dir, chunk_bytes):
     return parts
 
 
+def deliver_binary(path, chunks_dir):
+    """Under the limit: leave in place, git-addable as-is. Over: split for chat.
+    Returns (status, extra) where status is "git" or "chat"."""
+    size = os.path.getsize(path)
+    if size <= GIT_PUSH_MAX_BYTES:
+        return "git", size
+    checksum = sha256_of(path)
+    parts = split_file(path, chunks_dir, CHAT_CHUNK_BYTES)
+    sha_path = os.path.join(chunks_dir, os.path.basename(path) + ".sha256")
+    with open(sha_path, "w") as f:
+        f.write(f"{checksum}  {os.path.basename(path)}\n")
+    return "chat", (checksum, parts)
+
+
 def main():
     if len(sys.argv) != 2:
         print(__doc__)
         return 2
     pd = sys.argv[1]
 
+    narration_files = sorted(glob.glob(os.path.join(pd, "narration_part*.txt")))
     required = {
         "description": os.path.join(pd, "description.md"),
         "captions": os.path.join(pd, "out", "captions.srt"),
@@ -65,36 +88,62 @@ def main():
         "video": os.path.join(pd, "out", "final.mp4"),
     }
     missing = [name for name, p in required.items() if not os.path.exists(p)]
+    if not narration_files:
+        missing.append("narration")
     if missing:
         print(f"FAIL: missing deliverable(s) before running deliver.py: {', '.join(missing)}")
         for name in missing:
-            print(f"      expected {required[name]}")
+            if name in required:
+                print(f"      expected {required[name]}")
+            else:
+                print(f"      expected {os.path.join(pd, 'narration_part*.txt')}")
         return 1
 
-    video_path = required["video"]
-    video_bytes = os.path.getsize(video_path)
+    print(f"OK  description.md, {len(narration_files)} narration file(s), "
+          f"out/captions.srt, out/thumbnail.png all present")
 
-    print(f"OK  description.md, out/captions.srt, out/thumbnail.png all present")
-    print(f"    out/final.mp4: {video_bytes:,} bytes")
+    out_dir = os.path.join(pd, "out")
+    shutil.copy2(required["description"], os.path.join(out_dir, "description.md"))
+    for f in narration_files:
+        shutil.copy2(f, os.path.join(out_dir, os.path.basename(f)))
+    print(f"OK  mirrored description.md and narration into {out_dir}")
 
-    if video_bytes <= GIT_PUSH_MAX_BYTES:
-        print(f"OK  under the {GIT_PUSH_MAX_BYTES:,}-byte git push limit")
-        print("NEXT: git add -f description.md out/captions.srt out/thumbnail.png out/final.mp4, commit, push")
-        return 0
+    git_paths, chat_items = [], []
 
-    print(f"OK  over the {GIT_PUSH_MAX_BYTES:,}-byte git push limit - splitting for chat delivery instead")
-    checksum = sha256_of(video_path)
-    chunks_dir = os.path.join(pd, "out", "chunks")
-    parts = split_file(video_path, chunks_dir, CHAT_CHUNK_BYTES)
-    sha_path = os.path.join(chunks_dir, os.path.basename(video_path) + ".sha256")
-    with open(sha_path, "w") as f:
-        f.write(f"{checksum}  {os.path.basename(video_path)}\n")
+    status, extra = deliver_binary(required["video"], os.path.join(out_dir, "chunks"))
+    if status == "git":
+        print(f"OK  out/final.mp4: {extra:,} bytes, under the git push limit")
+        git_paths.append("out/final.mp4")
+    else:
+        checksum, parts = extra
+        print(f"OK  out/final.mp4 over the git push limit - split into "
+              f"{len(parts)} part(s), sha256 {checksum}")
+        chat_items.append(("out/final.mp4", checksum, parts))
 
-    print(f"OK  split into {len(parts)} part(s) in {chunks_dir}")
-    print(f"    sha256 {checksum}")
-    print("NEXT: git add -f description.md out/captions.srt out/thumbnail.png (NOT out/final.mp4), commit, push")
-    print(f"      then send the {len(parts)} chunk file(s) to the user via chat, and give them the sha256")
-    print("      above plus the reassembly command (cat final.mp4.part_* > final.mp4, or Windows copy /b)")
+    shorts_dir = os.path.join(out_dir, "shorts")
+    shorts_files = sorted(glob.glob(os.path.join(shorts_dir, "*.mp4")))
+    for sf in shorts_files:
+        status, extra = deliver_binary(sf, os.path.join(shorts_dir, "chunks"))
+        rel = os.path.join("out", "shorts", os.path.basename(sf))
+        if status == "git":
+            print(f"OK  {rel}: {extra:,} bytes, under the git push limit")
+            git_paths.append(rel)
+        else:
+            checksum, parts = extra
+            print(f"OK  {rel} over the git push limit - split into "
+                  f"{len(parts)} part(s), sha256 {checksum}")
+            chat_items.append((rel, checksum, parts))
+
+    always = ["description.md", "out/description.md", "out/captions.srt", "out/thumbnail.png"]
+    always += [os.path.join("out", os.path.basename(f)) for f in narration_files]
+    git_paths = always + git_paths
+
+    print(f"\nNEXT: git add -f {' '.join(git_paths)}, commit, push")
+    if chat_items:
+        for rel, checksum, parts in chat_items:
+            print(f"      then send the {len(parts)} chunk file(s) for {rel} via chat, "
+                  f"with sha256 {checksum}")
+        print("      reassembly: cat <name>.part_* > <name>, or Windows copy /b")
     return 0
 
 

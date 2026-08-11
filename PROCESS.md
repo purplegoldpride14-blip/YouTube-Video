@@ -46,6 +46,9 @@ python3 manifest.py status ../projects/<slug>
 python3 assemble.py ../projects/<slug> [--motion kenburns]
 python3 description_check.py ../projects/<slug>/description.md ../projects/<slug>/project.json
 
+# after picking highlight moments into shorts.json
+python3 make_shorts.py ../projects/<slug>
+
 # after the thumbnail is approved and saved to out/thumbnail.png
 python3 deliver.py ../projects/<slug>
 ```
@@ -121,6 +124,13 @@ features them; paraphrasing them is how faces drift over a hundred images.
 (support.google.com/youtube/answer/12948449). Independent of, and stricter than,
 the ~500 word floor. Always run `description_check.py`.
 
+**Shorts: 15s soft floor, 90s soft max, 180s hard max.** The hard max is
+YouTube's own technical cap on a Short; the soft bounds are retention, not a
+platform rule, so they warn rather than fail. Which moments qualify is
+judgement (`shorts.json`), not something `make_shorts.py` decides - it only
+turns a chosen scene range into a vertical, captioned clip. A clip that only
+makes sense with earlier context does not belong in `shorts.json` at all.
+
 ---
 
 ## Hard-won details
@@ -160,11 +170,16 @@ pipeline/              deterministic stages, all resumable, stdlib only
   manifest.py            resumable image batch bookkeeping
   assemble.py            frames + audio -> mp4, optional ken burns
   description_check.py   character cap and hashtag policy
-  deliver.py              verify deliverables, split final.mp4 if over the git push limit
+  make_shorts.py         shorts.json scene ranges -> vertical captioned clips
+  deliver.py              mirror deliverables into out/, split anything over the git push limit
 playbooks/             the editorial half, one file per decision
 prompts/               the two standing prompts, used verbatim
 projects/<slug>/
   project.json  style.json  script.txt  narration_partN.txt
-  boundaries.json  prompts.json  description.md
-  audio/  srt/  frames/  out/
+  boundaries.json  prompts.json  description.md  shorts.json
+  audio/  srt/  frames/
+  out/                  the single handoff folder - everything the user takes
+                        elsewhere ends up here, mirrored by deliver.py
+    final.mp4  thumbnail.png  captions.srt  words.json  description.md
+    narration_partN.txt  shorts/<name>.mp4  chunks/  shorts/chunks/
 ```
