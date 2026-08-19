@@ -50,12 +50,16 @@ MAX_UNIFORM_RUN = 6
 SRT_MAX_WORDS_PER_CUE = 5  # carried over unchanged
 
 # ---------- images ----------
-IMAGE_MODEL = "nano-banana-2"
+IMAGE_MODEL = "nano-banana-2-lite"
 IMAGE_MODE = "text2image"
-IMAGE_RESOLUTION = "2K"
 IMAGE_ASPECT = "16:9"
 IMAGE_COUNT = 1
-AUTO_ENHANCE_PROMPT = False  # ALWAYS false - it rewrites the locked style block
+# nano-banana-2-lite's params are prompt, imageCount, aspectRatio - nothing else.
+# It has no resolution param (fixed at 1K internally, not user-settable) and no
+# autoEnhancePrompt param, so pass neither - the schema is additionalProperties
+# false and rejects them. That also means there is no toggle that could rewrite
+# the locked style block, which is the thing autoEnhancePrompt=false existed to
+# prevent on nano-banana-2.
 MIN_IMAGE_BYTES = 10000      # anything smaller is a failed download, not an image
 
 # ---------- video ----------

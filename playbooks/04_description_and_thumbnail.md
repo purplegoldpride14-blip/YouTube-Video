@@ -51,8 +51,9 @@ the image model. Two steps.
 - the two-word question convention works across niches: `SICK?`, `NO JOBS?`,
   `WHY VANISH?`
 
-**Step 2 — generate it** with OpenArt: nano-banana-2, 2K, 16:9,
-`autoEnhancePrompt: false`.
+**Step 2 — generate it** with OpenArt: nano-banana-2-lite, 16:9. It has no
+resolution or autoEnhancePrompt param - only prompt, imageCount, and
+aspectRatio are valid.
 
 This is the one image in the whole video that deliberately overrides the style
 block's "no text anywhere" rule.

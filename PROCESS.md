@@ -115,10 +115,14 @@ floor and split anything over the hard max. The agent reads `scenes_draft.txt` a
 adjusts. Proposing a draft and editing it is far more reliable than authoring a
 hundred cue indices by hand, which is what the earlier version asked for.
 
-**Images: nano-banana-2, text2image, 2K, 16:9, count 1, autoEnhancePrompt false.**
-`autoEnhancePrompt` rewrites the locked style block and the subjects drift between
-scenes. Character descriptor phrases are reused verbatim in every prompt that
-features them; paraphrasing them is how faces drift over a hundred images.
+**Images: nano-banana-2-lite, text2image, 16:9, count 1.** Fast and, as of this
+writing, unlimited-use on OpenArt. Its params are prompt, imageCount, and
+aspectRatio only - no resolution (fixed at 1K internally) and no
+autoEnhancePrompt, so there is nothing that can silently rewrite the locked
+style block the way `autoEnhancePrompt` could on nano-banana-2. Character
+descriptor phrases are still reused verbatim in every prompt that features
+them; paraphrasing them is how faces drift over a hundred images regardless of
+model.
 
 **Description: 5,000 character hard cap.** YouTube's actual platform limit
 (support.google.com/youtube/answer/12948449). Independent of, and stricter than,

@@ -59,11 +59,13 @@ Generate **scene 1 only**, using its real prompt from `prompts.json`, at the
 locked settings:
 
 ```
-model nano-banana-2 | text2image | 2K | 16:9 | count 1 | autoEnhancePrompt false
+model nano-banana-2-lite | text2image | 16:9 | count 1
 ```
 
-`autoEnhancePrompt` must be false. It rewrites the style block, and the subjects
-drift between scenes.
+nano-banana-2-lite has no resolution or autoEnhancePrompt param - only prompt,
+imageCount, and aspectRatio are valid, so pass nothing else. There is no
+prompt-rewriting toggle to disable; the raw prompt is always what gets used,
+which is the same guarantee `autoEnhancePrompt: false` gave on nano-banana-2.
 
 Show it. Wait. This is the second and last approval gate. If it is rejected, ask
 what specifically to change, edit the style block, regenerate scene 1, and show
