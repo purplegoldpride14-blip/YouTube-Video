@@ -1,5 +1,10 @@
 {
-  "style_block": "",
-  "characters": {},
-  "reference_notes": ""
+  "style_block": "Retro late 1990s VHS commercial aesthetic, shot on analog videotape texture, soft chromatic aberration at frame edges, subtle horizontal scan lines, warm slightly oversaturated color grading typical of period consumer video, soft glow around bright highlights like an old tube television, gentle film grain, faint vignette. Backgrounds evoke period accurate American settings, toy store aisles, suburban living rooms, cluttered inventor workshop desks, fluorescent lit government office corridors, big box store checkout lines, all rendered with warm nostalgic color and soft edges rather than sharp modern clarity. Cinematic 16:9 composition framed like a period television commercial or local news broadcast segment. No modern technology, no smartphones, no flat screen displays, no photorealistic reproduction of real world logos or trademarked packaging text, no watermark, no signature, no extra fingers, no distorted limbs, no garbled or misspelled lettering, no text anywhere in the image.",
+  "characters": {
+    "TOY_CHARACTER": "a fictionalized, stylized late 1990s animatronic pet toy character, round plush body covered in soft brown-gray synthetic fur, oversized cartoonish blinking eyes, large felt ears that swivel, small pink plastic beak-like mouth, stubby non-functional wings, designed to evoke the era's animatronic toy fad in general rather than an exact reproduction of any single real product",
+    "INVENTOR_ONE": "an archetypal late 1990s toy inventor character, middle aged man, short graying hair, round wire frame glasses, plaid button up shirt with sleeves rolled up, warm approachable demeanor, usually shown at a cluttered workbench surrounded by tools and half built gadgets",
+    "INVENTOR_TWO": "an archetypal late 1990s toy inventor and puppeteer character, lean build, dark hair, short goatee, black turtleneck, expressive hands often mid gesture as if animating something invisible in front of him",
+    "EXEC_MAN": "an archetypal late 1990s toy company executive character, stocky build, dark hair combed back, navy suit jacket with no tie, confident posture, usually shown behind a cluttered office desk or at a podium"
+  },
+  "reference_notes": "User requested a retro VHS and CRT era commercial aesthetic for a 1990s nostalgia documentary about a real toy and a real security scare. The toy itself is treated as a fictionalized stylized character rather than a literal reproduction of the real trademarked product, the same way the inventors and executive are archetypal figures rather than exact photographic likenesses, to keep the imagery interpretive rather than a direct copy of protected packaging or design."
 }

@@ -1,0 +1,315 @@
+[001]    0.72s   7.32s  word 1
+      In January of nineteen ninety nine, security officers at the most secretive intelligence agency in the United States pulled a small,
+
+[002]    8.03s   6.38s  word 22
+      fuzzy, wide eyed toy off an employee's desk and confiscated it like it was a listening device.
+
+[003]   14.42s   3.40s  word 39
+      Because that is exactly what they thought it was.
+
+[004]   17.81s   5.43s  word 48
+      The agency was the National Security Agency. The toy was a Furby.
+
+[005]   23.24s  11.06s  word 60
+      And for a few strange weeks, one of the most powerful surveillance organizations on earth was more afraid of a thirty five dollar Christmas present than almost anything else on its own property.
+
+[006]   34.30s   7.26s  word 93
+      Here is the question worth asking. Not whether a talking toy could actually spy on the National Security Agency.
+
+[007]   41.56s   6.15s  word 112
+      It could not, and within days, even the agency's own officials seemed to sense that.
+
+[008]   47.71s   8.12s  word 127
+      The real question is how a plastic and fake fur owl convinced grown adults trained to detect real threats that it might be listening.
+
+[009]   55.83s   8.66s  word 151
+      That question has very little to do with spy craft, and everything to do with how well this toy was built to fake being alive.
+
+[010]   64.49s   6.58s  word 176
+      The story starts two years earlier, with two inventors named Dave Hampton and Caleb Chung.
+
+[011]   71.07s   4.72s  word 191
+      Hampton had spent years building animatronics and novelty electronics,
+
+[012]   75.79s   7.06s  word 200
+      the kind of small mechanical creatures that move and react just convincingly enough to surprise someone holding them.
+
+[013]   82.85s   3.83s  word 218
+      Chung brought a background in puppetry and film special effects,
+
+[014]   86.69s   6.12s  word 228
+      the discipline of making something lifeless read as alive through nothing but timing and motion.
+
+[015]   92.80s   7.23s  word 243
+      Together, the two of them spent nine months designing the toy on paper and another nine months actually building it,
+
+[016]  100.03s   3.04s  word 263
+      chasing one very specific goal.
+
+[017]  103.07s   2.84s  word 268
+      They did not just want a toy that talked.
+
+[018]  105.91s   6.05s  word 277
+      They wanted a toy that felt like it was discovering the world in real time, right in front of the person holding it,
+
+[019]  111.96s   6.79s  word 300
+      blinking and reacting a half second after you did something, the same way a real animal would.
+
+[020]  118.75s   7.53s  word 317
+      They partnered with a toy inventor named Richard Levy, who brought the concept to a company called Tiger Electronics.
+
+[021]  126.28s   9.37s  word 336
+      Tiger's leader, Roger Shiffman, bought the rights and unveiled the toy at the American International Toy Fair in New York in early nineteen ninety eight.
+
+[022]  135.65s   8.18s  word 361
+      The response from buyers in the room was immediate. This was not a normal-looking gadget on a shelf full of normal-looking gadgets.
+
+[023]  143.83s   5.19s  word 383
+      It had huge blinking eyes, oversized ears that swiveled and folded,
+
+[024]  149.02s   5.77s  word 394
+      and a beak that opened and closed every time it spoke its own invented language.
+
+[025]  154.79s   7.72s  word 409
+      Buyers who had seen thousands of toy pitches over their careers reportedly stopped to watch this one longer than they meant to.
+
+[026]  162.51s   7.02s  word 431
+      The toy launched to the public on October second, nineteen ninety eight, priced at around thirty five dollars.
+
+[027]  169.53s   8.50s  word 449
+      And then something happened that Tiger Electronics had not fully prepared for, despite the strong reaction at the Toy Fair months earlier.
+
+[028]  178.03s   2.55s  word 471
+      Demand did not just meet expectations.
+
+[029]  180.58s   7.94s  word 477
+      It broke them completely, the same way a handful of other toy crazes had blindsided manufacturers earlier that same decade.
+
+[030]  188.52s   5.93s  word 497
+      In its first partial year on shelves, the company sold one point eight million units.
+
+[031]  194.45s   4.49s  word 512
+      By the following year, that number jumped to fourteen million.
+
+[032]  198.94s   6.55s  word 522
+      Over its first three years of production, more than forty million of these toys sold worldwide.
+
+[033]  205.49s   7.26s  word 538
+      During the nineteen ninety eight holiday season specifically, parents could not find them anywhere near the original price.
+
+[034]  212.75s   8.16s  word 556
+      Stores limited customers to one per visit. Local news programs ran segments on which stores had a truck arriving that morning.
+
+[035]  220.91s   4.37s  word 577
+      Resale prices climbed past one hundred dollars, and in the most desperate cases,
+
+[036]  225.28s   7.92s  word 590
+      buyers reported paying several hundred dollars to secondhand sellers just to have one sitting under the tree on Christmas morning.
+
+[037]  233.20s   6.44s  word 610
+      Part of what made the toy so addictive, for kids and adults alike, was its core trick.
+
+[038]  239.64s   4.46s  word 627
+      Out of the box, it spoke almost entirely in its own made up language,
+
+[039]  244.10s   5.58s  word 641
+      a string of nonsense syllables somewhere between baby talk and a foreign tongue.
+
+[040]  249.68s   4.06s  word 654
+      Owners actually began compiling informal dictionaries of these words,
+
+[041]  253.74s   6.50s  word 663
+      trading translations with each other the way people once traded notes on a foreign language learned on a family trip.
+
+[042]  260.24s   8.88s  word 683
+      But over time, as a child interacted with it, English words gradually started replacing the gibberish, one phrase at a time.
+
+[043]  269.12s   5.43s  word 704
+      It genuinely seemed to be learning how to talk, the same way a small child does, listening,
+
+[044]  274.55s   4.76s  word 721
+      absorbing, and slowly getting better at speaking back.
+
+[045]  279.31s   4.95s  word 729
+      Owners swore their own toy had a personality, a mood, even a sense of humor,
+
+[046]  284.26s   5.94s  word 744
+      despite every unit on the assembly line running the identical program underneath the fur.
+
+[047]  290.20s   3.04s  word 758
+      That illusion was the entire product.
+
+[048]  293.24s   7.02s  word 764
+      It was clever, it was effective, and it was about to cause a problem nobody at the toy company saw coming.
+
+[049]  300.26s   4.74s  word 785
+      By January of nineteen ninety nine, just over three months after launch,
+
+[050]  305.00s   7.09s  word 797
+      that same illusion reached the National Security Agency, headquartered in Fort Meade, Maryland.
+
+[051]  312.09s   6.46s  word 810
+      On January thirteenth, the agency issued an order banning the toys from its buildings entirely.
+
+[052]  318.55s   5.96s  word 825
+      The Navy's shipyard in Portsmouth, Virginia followed with a similar restriction of its own.
+
+[053]  324.51s   8.31s  word 839
+      Separately, the Federal Aviation Administration weighed in as well, treating the toy the same way it treated any other battery powered electronic device,
+
+[054]  332.82s   6.55s  word 862
+      something that had to be switched off during takeoff and landing rather than left running in a passenger's bag.
+
+[055]  339.37s   8.43s  word 881
+      Three different arms of the federal government, in other words, all decided independently that this specific toy deserved a written policy.
+
+[056]  347.80s   4.29s  word 902
+      At the National Security Agency, the reasoning was strikingly literal.
+
+[057]  352.08s   6.57s  word 912
+      Photography and audio recording devices of any kind are strictly forbidden inside the agency's facilities.
+
+[058]  358.65s   7.09s  word 927
+      And because this toy appeared to learn new words from whatever it heard around it, officials worried it might be doing exactly that,
+
+[059]  365.75s   8.64s  word 950
+      quietly recording snippets of classified conversation somewhere inside its plastic shell and repeating them back later in its high pitched voice,
+
+[060]  374.38s   4.64s  word 971
+      in a hallway or a parking lot far from where the words were first spoken.
+
+[061]  379.02s   8.62s  word 986
+      It sounds almost funny in hindsight, and at the time, it was treated as a serious enough concern that offices were told to remove the toys immediately,
+
+[062]  387.64s   9.30s  word 1013
+      no exceptions and no debate, the same way anyone would be told to remove an actual recording device found sitting on a desk inside a classified building.
+
+[063]  396.94s   5.02s  word 1040
+      Tiger Electronics moved quickly to shut the story down before it grew any further.
+
+[064]  401.96s   8.68s  word 1054
+      Roger Shiffman told reporters directly that the toy had, in his words, absolutely no ability to do any recording whatsoever.
+
+[065]  410.64s   3.74s  word 1074
+      Dave Hampton, one of the original inventors, went further,
+
+[066]  414.38s   6.25s  word 1083
+      demonstrating publicly that the toy's built in microphone was only sensitive enough to detect simple sound patterns,
+
+[067]  420.64s   7.26s  word 1100
+      monotonous beeps and claps, nothing close to capturing and later replaying full sentences of human speech.
+
+[068]  427.89s   4.43s  word 1116
+      The truth was almost anticlimactic compared to the fear it caused.
+
+[069]  432.32s   5.33s  word 1127
+      Inside every one of these toys sat a simple processor paired with a basic speech synthesis chip,
+
+[070]  437.65s   5.15s  word 1144
+      no more sophisticated than what powered other talking toys of that same era,
+
+[071]  442.80s   4.96s  word 1157
+      the kind of components a hobbyist could take apart on a kitchen table in an afternoon.
+
+[072]  447.76s   3.43s  word 1173
+      The vocabulary was not learned from the environment at all.
+
+[073]  451.19s   7.62s  word 1183
+      It was hardcoded from the very start, programmed to gradually swap out the made up language for English on a fixed internal schedule,
+
+[074]  458.82s   5.13s  word 1206
+      regardless of what anyone actually said to it, or whether anyone spoke to it at all.
+
+[075]  463.94s   5.46s  word 1222
+      The toy was not listening and adapting the way a person or even a real recording device would.
+
+[076]  469.40s   7.55s  word 1240
+      It was running a script it had been given the day it left the factory, and simply revealing more of that script the longer it stayed powered on.
+
+[077]  476.95s   9.89s  word 1268
+      Faced with the manufacturer's public denials and a fairly simple explanation of the hardware sitting inside a thirty five dollar toy, the ban did not last long.
+
+[078]  486.84s   9.38s  word 1295
+      The National Security Agency quietly walked it back rather than run a full technical teardown to prove what was already fairly obvious to anyone who opened one up.
+
+[079]  496.22s   6.97s  word 1323
+      For a brief moment, a mass market Christmas toy had out maneuvered one of the most secretive government agencies in the country,
+
+[080]  503.19s   6.74s  word 1345
+      not through any actual capability hidden inside it, but purely through how convincingly it pretended to have one.
+
+[081]  509.93s   5.50s  word 1363
+      The mania that made this story possible eventually cooled the way every toy craze does.
+
+[082]  515.43s   3.75s  word 1378
+      Production of the original version wound down by around two thousand two,
+
+[083]  519.18s   5.28s  word 1390
+      after that run of more than forty million units sold worldwide.
+
+[084]  524.46s   5.84s  word 1401
+      But this was not the end of the toy's story, only the end of its first act.
+
+[085]  530.30s   4.97s  word 1418
+      In two thousand five, Hasbro, which had acquired Tiger Electronics along the way,
+
+[086]  535.27s   4.57s  word 1431
+      brought the toy back with new, more expressive features.
+
+[087]  539.84s   6.34s  word 1440
+      Another version arrived in twenty twelve with animated screen eyes instead of the old mechanical ones.
+
+[088]  546.18s   5.72s  word 1456
+      A more connected version followed in twenty sixteen, able to link to a smartphone app.
+
+[089]  551.90s   8.33s  word 1471
+      And in twenty twenty three, a fifth generation model launched with voice activation and more than six hundred built in responses.
+
+[090]  560.23s   5.44s  word 1492
+      By twenty twenty five, the toy had become a finalist for the National Toy Hall of Fame,
+
+[091]  565.67s   6.16s  word 1509
+      more than a quarter century after it first frightened a spy agency into writing a memo about it.
+
+[092]  571.83s   4.50s  word 1527
+      So what actually happened in that strange month in early nineteen ninety nine?
+
+[093]  576.33s   4.17s  word 1540
+      Nobody built a working listening device disguised as a children's toy.
+
+[094]  580.50s   9.70s  word 1551
+      What actually happened is that two inventors built something so convincingly alive that it fooled the exact people whose entire job was not to be fooled.
+
+[095]  590.20s   7.97s  word 1577
+      The National Security Agency spends its existence trying to tell real signals from noise, real threats from harmless ones.
+
+[096]  598.17s   7.45s  word 1596
+      And for a few weeks, a toy powered by a chip simpler than a pocket calculator managed to look like a signal worth taking seriously,
+
+[097]  605.62s   3.26s  word 1621
+      at the highest levels of American intelligence.
+
+[098]  608.88s   7.57s  word 1628
+      That is the part of this story that outlasts the joke. The toy never needed a microphone that actually worked.
+
+[099]  616.45s   6.17s  word 1648
+      It only needed to seem like it might, and to seem like it was getting smarter every day you spent with it.
+
+[100]  622.62s   8.03s  word 1670
+      Decades before anyone worried about a smart speaker listening in the next room, or a phone that seemed to know what you were about to search for before you typed it,
+
+[101]  630.65s   4.91s  word 1701
+      a fuzzy plastic owl with blinking eyes had already taught an entire country,
+
+[102]  635.56s   6.52s  word 1714
+      including its most guarded agency, the same lesson those later devices would teach all over again.
+
+[103]  642.08s   6.03s  word 1730
+      Something does not have to actually understand you to make you believe, completely, that it does.
+
+[104]  648.11s   3.35s  word 1746
+      The National Security Agency eventually got its building back to normal,
+
+[105]  651.46s  10.36s  word 1757
+      and Furby went on to sell tens of millions more units under a company that never once needed to prove the toy was actually listening. It only ever needed everyone to wonder.
+
