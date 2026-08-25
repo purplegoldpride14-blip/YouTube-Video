@@ -185,5 +185,5 @@ projects/<slug>/
   out/                  the single handoff folder - everything the user takes
                         elsewhere ends up here, mirrored by deliver.py
     final.mp4  thumbnail.png  captions.srt  words.json  description.md
-    narration_partN.txt  shorts/<name>.mp4  chunks/  shorts/chunks/
+    title.txt  narration_partN.txt  shorts/<name>.mp4  chunks/  shorts/chunks/
 ```

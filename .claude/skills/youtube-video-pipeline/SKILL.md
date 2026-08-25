@@ -119,9 +119,10 @@ approved, generate all remaining scenes automatically with no continuation promp
 14. **Deliver.** Once the thumbnail is approved and any Shorts are cut, run:
     `python3 deliver.py ../projects/<slug>`
     It verifies `description.md`, `narration_part*.txt`, `out/captions.srt`,
-    `out/thumbnail.png` and `out/final.mp4` all exist, mirrors
-    `description.md` and the narration files into `out/` so that folder is the
-    single handoff location for everything the user takes elsewhere, then
+    `out/thumbnail.png`, `out/final.mp4`, and `project.json` all exist, mirrors
+    `description.md` and the narration files into `out/` and writes the
+    video's title (from `project.json`) to `out/title.txt`, so that folder is
+    the single handoff location for everything the user takes elsewhere, then
     checks `out/final.mp4` and every `out/shorts/*.mp4` against
     `GIT_PUSH_MAX_BYTES`. `out/` is gitignored by default (generated media
     never belongs in git), so this step always needs `-f`:

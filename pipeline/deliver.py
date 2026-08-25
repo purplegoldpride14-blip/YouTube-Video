@@ -4,11 +4,12 @@ Prepare the finished project for handoff.
 
 Does four things, in order:
 1. Verifies the deliverables exist: description.md, narration_part*.txt,
-   out/captions.srt, out/thumbnail.png, out/final.mp4.
-2. Mirrors description.md and narration_part*.txt into out/, so out/ is the
-   one folder with everything the user actually takes elsewhere - video,
-   thumbnail, captions, description, narration, and any Shorts. The originals
-   at the project root are untouched; other stages (audio_merge.py,
+   out/captions.srt, out/thumbnail.png, out/final.mp4, project.json.
+2. Mirrors description.md and narration_part*.txt into out/, and writes the
+   video's title (from project.json) to out/title.txt, so out/ is the one
+   folder with everything the user actually takes elsewhere - video,
+   thumbnail, captions, description, narration, title, and any Shorts. The
+   originals at the project root are untouched; other stages (audio_merge.py,
    description_check.py) still read from there.
 3. Checks out/final.mp4 and every out/shorts/*.mp4 against GIT_PUSH_MAX_BYTES.
    Anything under the limit is left alone for the agent to git-add (with -f,
@@ -27,6 +28,7 @@ import os
 import glob
 import shutil
 import hashlib
+import json
 
 from config import GIT_PUSH_MAX_BYTES, CHAT_CHUNK_BYTES
 
@@ -86,6 +88,7 @@ def main():
         "captions": os.path.join(pd, "out", "captions.srt"),
         "thumbnail": os.path.join(pd, "out", "thumbnail.png"),
         "video": os.path.join(pd, "out", "final.mp4"),
+        "project": os.path.join(pd, "project.json"),
     }
     missing = [name for name, p in required.items() if not os.path.exists(p)]
     if not narration_files:
@@ -107,6 +110,15 @@ def main():
     for f in narration_files:
         shutil.copy2(f, os.path.join(out_dir, os.path.basename(f)))
     print(f"OK  mirrored description.md and narration into {out_dir}")
+
+    with open(required["project"]) as f:
+        title = json.load(f).get("title", "").strip()
+    if not title:
+        print(f"FAIL: {required['project']} has no title set")
+        return 1
+    with open(os.path.join(out_dir, "title.txt"), "w") as f:
+        f.write(title + "\n")
+    print(f"OK  wrote out/title.txt")
 
     git_paths, chat_items = [], []
 
@@ -134,7 +146,7 @@ def main():
                   f"{len(parts)} part(s), sha256 {checksum}")
             chat_items.append((rel, checksum, parts))
 
-    always = ["description.md", "out/description.md", "out/captions.srt", "out/thumbnail.png"]
+    always = ["description.md", "out/description.md", "out/title.txt", "out/captions.srt", "out/thumbnail.png"]
     always += [os.path.join("out", os.path.basename(f)) for f in narration_files]
     git_paths = always + git_paths
 
