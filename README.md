@@ -44,7 +44,7 @@ No pip installs. Everything in `pipeline/` is stdlib.
 | # | Stage | Command |
 |---|---|---|
 | 1-2 | niche, ten ideas, topic research, title pick | `playbooks/01_niche_and_topic.md` |
-| 3 | script, 1,800-1,900 words | `script_check.py <script> ../projects/<slug> --fix` |
+| 3 | script, 1,600-1,700 words | `script_check.py <script> ../projects/<slug> --fix` |
 | 4 | merge audio, verify order, boost to -14 LUFS | `audio_merge.py ../projects/<slug>/audio ../projects/<slug>` |
 | 5 | align Descript SRT to the script | `srt_build.py ../projects/<slug>/srt ../projects/<slug>` |
 | 6 | scene boundaries | `scene_plan.py propose\|build ../projects/<slug>` |

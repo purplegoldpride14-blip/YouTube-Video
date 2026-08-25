@@ -1,6 +1,6 @@
 # Stage 3 — the script
 
-1,800 to 1,900 words. Roughly eleven to twelve minutes of narration. Enforced by
+1,600 to 1,700 words. Roughly ten to eleven minutes of narration. Enforced by
 `script_check.py`, which also splits the script into TTS-safe parts and strips
 anything the voice-over would stumble on.
 
@@ -73,7 +73,7 @@ the fix — the sentence is:
 python3 script_check.py <script.txt> ../projects/<slug> --fix
 ```
 
-It hard-fails outside 1,750-1,950 words, warns outside 1,800-1,900, and writes
+It hard-fails outside 1,550-1,750 words, warns outside 1,600-1,700, and writes
 `narration_part1.txt`..`partN.txt` split evenly under the 10,000-character TTS cap.
 Balanced, not greedy: a 1,610/290 split gives the two halves different room tone
 and makes the join audible.

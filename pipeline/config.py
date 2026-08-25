@@ -6,10 +6,10 @@ this file, not an independent statement of fact. If they disagree, this file win
 """
 
 # ---------- script ----------
-WORDS_MIN = 1800          # target band; outside this you get a WARNING
-WORDS_MAX = 1900
-WORDS_HARD_MIN = 1750     # outside the hard band the run STOPS
-WORDS_HARD_MAX = 1950
+WORDS_MIN = 1600          # target band; outside this you get a WARNING
+WORDS_MAX = 1700
+WORDS_HARD_MIN = 1550     # outside the hard band the run STOPS
+WORDS_HARD_MAX = 1750
 
 TTS_CHAR_CAP = 10000      # engine hard limit per submission
 TTS_CHAR_TARGET = 9500    # headroom so a late edit cannot push a part over

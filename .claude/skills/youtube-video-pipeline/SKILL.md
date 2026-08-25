@@ -54,7 +54,7 @@ approved, generate all remaining scenes automatically with no continuation promp
    `project.json` under `title` via `new_project.py ... --title "..."` before
    moving on to the script. Do not defer this to the description/thumbnail
    stage - the title is chosen here, not guessed at the end.
-3. **Script.** `playbooks/02_script.md`. 1,800-1,900 words. Then:
+3. **Script.** `playbooks/02_script.md`. 1,600-1,700 words. Then:
    `python3 script_check.py <script.txt> ../projects/<slug> --fix`
    As soon as this passes, commit and push `script.txt` and the
    `narration_part*.txt` files it writes (`git add -f projects/<slug>/script.txt
