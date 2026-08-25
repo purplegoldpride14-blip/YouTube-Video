@@ -128,12 +128,15 @@ model.
 (support.google.com/youtube/answer/12948449). Independent of, and stricter than,
 the ~500 word floor. Always run `description_check.py`.
 
-**Shorts: 15s soft floor, 90s soft max, 180s hard max.** The hard max is
-YouTube's own technical cap on a Short; the soft bounds are retention, not a
-platform rule, so they warn rather than fail. Which moments qualify is
-judgement (`shorts.json`), not something `make_shorts.py` decides - it only
-turns a chosen scene range into a vertical, captioned clip. A clip that only
-makes sense with earlier context does not belong in `shorts.json` at all.
+**Shorts: 15s soft floor, 30s soft max (creator's target), 180s hard max.** The
+hard max is YouTube's own technical cap on a Short; the soft bounds are
+retention/creator preference, not a platform rule, so they warn rather than
+fail. Which moments qualify is judgement (`shorts.json`), not something
+`make_shorts.py` decides - it only turns a chosen scene range into a vertical,
+captioned clip. A clip that only makes sense with earlier context does not
+belong in `shorts.json` at all. Keep ranges tight: a single sentence or two
+that lands as a standalone hook, not a full narrative arc - the 30s target
+does not leave room for setup-then-payoff the way the old 90s ceiling did.
 
 ---
 

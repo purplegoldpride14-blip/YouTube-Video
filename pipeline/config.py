@@ -79,7 +79,7 @@ SHORTS_FONT_SIZE = 58
 SHORTS_BLUR_SIGMA = 22        # background blur strength behind the letterboxed clip
 SHORTS_BG_DARKEN = -0.08      # eq brightness applied to the blurred background
 SHORTS_MIN_SEC = 15           # below this, a clip is too thin to stand alone - WARN
-SHORTS_SOFT_MAX_SEC = 90      # above this, retention drops off - WARN
+SHORTS_SOFT_MAX_SEC = 30      # creator's target ceiling - WARN above this
 SHORTS_HARD_MAX_SEC = 180     # YouTube Shorts' technical cap - FAIL
 
 # ---------- delivery ----------
