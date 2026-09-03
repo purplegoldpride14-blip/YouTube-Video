@@ -115,17 +115,11 @@ floor and split anything over the hard max. The agent reads `scenes_draft.txt` a
 adjusts. Proposing a draft and editing it is far more reliable than authoring a
 hundred cue indices by hand, which is what the earlier version asked for.
 
-**Images: z-image-turbo (Tongyi-MAI/Z-Image-Turbo), via Hugging Face's
-mrfakename/Z-Image-Turbo Space, 1280x720, 9 steps.** Open weight (Apache 2.0),
-free, and fast - 9 steps is the model's own recommended setting, not something
-to raise for quality. Its params are prompt, width, height,
-num_inference_steps, seed, and randomize_seed only - no negative prompt and no
-prompt-rewriting toggle, so there is nothing that can silently rewrite the
-locked style block. Unlike the earlier OpenArt-based providers, this is a
-shared public Space (ZeroGPU): calls are synchronous (one call returns one
-finished image, no job/poll step) but the returned URL is an ephemeral file on
-that Space's replica, not durable storage, so download each scene immediately
-rather than batching a run of recorded URLs to fetch later. Character
+**Images: nano-banana-2-lite, text2image, 16:9, count 1.** Fast and, as of this
+writing, unlimited-use on OpenArt. Its params are prompt, imageCount, and
+aspectRatio only - no resolution (fixed at 1K internally) and no
+autoEnhancePrompt, so there is nothing that can silently rewrite the locked
+style block the way `autoEnhancePrompt` could on nano-banana-2. Character
 descriptor phrases are still reused verbatim in every prompt that features
 them; paraphrasing them is how faces drift over a hundred images regardless of
 model.
