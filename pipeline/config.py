@@ -101,4 +101,7 @@ CHAT_CHUNK_BYTES = 25 * 1024 * 1024
 
 # ---------- required network domains ----------
 # Must be allowlisted BEFORE the run starts. Cannot be changed mid-session.
-REQUIRED_DOMAINS = ["storage.googleapis.com", "cdn.openart.ai"]
+# mrfakename-z-image-turbo.hf.space serves the current default image provider's
+# generated files; cdn.openart.ai is kept for projects still on that provider.
+REQUIRED_DOMAINS = ["storage.googleapis.com", "cdn.openart.ai",
+                     "mrfakename-z-image-turbo.hf.space"]
