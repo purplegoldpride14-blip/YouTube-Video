@@ -93,8 +93,9 @@ approved, generate all remaining scenes automatically with no continuation promp
     `prompts/description_prompt.txt` verbatim, base it on the narration files and
     never on the research notes, then run `description_check.py`.
 12. **Thumbnail.** Use `prompts/thumbnail_prompt.txt` verbatim. It asks you to
-    write an image prompt; that prompt is what goes to OpenArt. Show it, and
-    regenerate until approved. Save the approved image itself to
+    write an image prompt; that prompt is what goes to the image model
+    (`playbooks/04_description_and_thumbnail.md`). Show it, and regenerate
+    until approved. Save the approved image itself to
     `projects/<slug>/out/thumbnail.png` (not just the prompt).
 13. **Shorts.** Once the video is assembled, look for moments strong enough to
     stand alone as a YouTube Short - a self-contained hook, reveal, quote, or

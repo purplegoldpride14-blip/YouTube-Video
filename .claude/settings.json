@@ -2,6 +2,7 @@
   "permissions": {
     "allow": [
       "mcp__OpenArt__openart_creation_get",
+      "mcp__Hugging_Face__gr1_z_image_turbo_generate_image",
       "mcp__NextLev__search_viral_videos_small_channels",
       "Bash(curl -sS -o *)"
     ]

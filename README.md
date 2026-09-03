@@ -34,7 +34,9 @@ GitHub's size limit, to chat in chunks).
 
 - Python 3.9+, ffmpeg (preflight installs it), curl
 - Descript MCP for the transcript SRT
-- OpenArt MCP for the images and thumbnail
+- An image-generation MCP for the images and thumbnail (current default:
+  Hugging Face's connector, calling the Z-Image-Turbo Space; OpenArt is the
+  earlier provider and still works if `config.py` is switched back)
 - NextLev MCP is optional but makes the topic research much better
 
 No pip installs. Everything in `pipeline/` is stdlib.

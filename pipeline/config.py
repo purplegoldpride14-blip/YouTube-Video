@@ -50,16 +50,26 @@ MAX_UNIFORM_RUN = 6
 SRT_MAX_WORDS_PER_CUE = 5  # carried over unchanged
 
 # ---------- images ----------
-IMAGE_MODEL = "nano-banana-2-lite"
-IMAGE_MODE = "text2image"
-IMAGE_ASPECT = "16:9"
-IMAGE_COUNT = 1
-# nano-banana-2-lite's params are prompt, imageCount, aspectRatio - nothing else.
-# It has no resolution param (fixed at 1K internally, not user-settable) and no
-# autoEnhancePrompt param, so pass neither - the schema is additionalProperties
-# false and rejects them. That also means there is no toggle that could rewrite
-# the locked style block, which is the thing autoEnhancePrompt=false existed to
-# prevent on nano-banana-2.
+IMAGE_PROVIDER = "huggingface"
+IMAGE_MODEL = "z-image-turbo"          # Tongyi-MAI/Z-Image-Turbo, Apache 2.0
+IMAGE_SPACE = "mrfakename/Z-Image-Turbo"  # public Gradio Space (ZeroGPU), via
+                                           # the Hugging Face MCP connector's
+                                           # gr1_z_image_turbo_generate_image tool
+IMAGE_WIDTH = 1280            # 16:9. Space allows 512-2048, no aspect param -
+IMAGE_HEIGHT = 720             # width/height are set directly instead.
+IMAGE_STEPS = 9                # "9 steps = 8 DiT forwards", the Space's own
+                                # recommended default - do not raise for quality,
+                                # this model is distilled for exactly this range.
+IMAGE_RANDOMIZE_SEED = True    # each scene is an independent image; no reason
+                                # to fix a seed across the batch.
+# Params are prompt, width, height, num_inference_steps, seed, randomize_seed -
+# nothing else. No negative-prompt field and no prompt-rewriting toggle to
+# disable; the raw prompt is always what gets used.
+# This is a shared public Space, not a paid API: expect ZeroGPU queueing under
+# load, and the returned image URL is an ephemeral file on that Space's
+# replica, not stable CDN storage. Download every scene's image immediately
+# after generating it - do not defer fetching across a batch of recorded URLs
+# the way the old OpenArt provider allowed.
 MIN_IMAGE_BYTES = 10000      # anything smaller is a failed download, not an image
 
 # ---------- video ----------

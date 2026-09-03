@@ -59,13 +59,14 @@ Generate **scene 1 only**, using its real prompt from `prompts.json`, at the
 locked settings:
 
 ```
-model nano-banana-2-lite | text2image | 16:9 | count 1
+model z-image-turbo (Hugging Face, mrfakename/Z-Image-Turbo) | 1280x720 | 9 steps
 ```
 
-nano-banana-2-lite has no resolution or autoEnhancePrompt param - only prompt,
-imageCount, and aspectRatio are valid, so pass nothing else. There is no
-prompt-rewriting toggle to disable; the raw prompt is always what gets used,
-which is the same guarantee `autoEnhancePrompt: false` gave on nano-banana-2.
+Call it via the Hugging Face MCP connector's `gr1_z_image_turbo_generate_image`
+tool: `prompt`, `width` 1280, `height` 720, `num_inference_steps` 9,
+`randomize_seed` true. There is no resolution preset or aspect-ratio param -
+width/height are passed directly - and no prompt-rewriting toggle to disable;
+the raw prompt is always what gets used.
 
 Show it. Wait. This is the second and last approval gate. If it is rejected, ask
 what specifically to change, edit the style block, regenerate scene 1, and show
@@ -77,18 +78,29 @@ Once scene 1 is approved, generate every remaining scene automatically. No
 check-ins, no "shall I continue", no progress approvals. Stop only for a blocking
 failure: a blocked domain, a hard cap, a validator failing.
 
+`gr1_z_image_turbo_generate_image` is synchronous - one call returns one
+finished image immediately, there is no separate job/poll step the way OpenArt
+had. It also runs on a shared public ZeroGPU Space, so the returned image URL
+is a temp file on that Space's current replica, not durable CDN storage. Do
+not submit a batch of scenes and come back later to record and fetch them all:
+
 ```bash
 python3 manifest.py init   ../projects/<slug>
-python3 manifest.py next   ../projects/<slug> 4     # then submit each via OpenArt
-python3 manifest.py submit ../projects/<slug> <n> <historyId>
+python3 manifest.py next   ../projects/<slug> 1
+# call gr1_z_image_turbo_generate_image, get back (url, seed) immediately
+python3 manifest.py submit ../projects/<slug> <n> <seed>
 python3 manifest.py record ../projects/<slug> <n> <url>
-python3 manifest.py fetch  ../projects/<slug>
+python3 manifest.py fetch  ../projects/<slug>            # download it now, same turn
 python3 manifest.py verify ../projects/<slug>
 python3 manifest.py status ../projects/<slug>
 ```
 
-Never hold batch state in context. `status` is the only source of truth about
-what is left, and `retry` puts a failed scene back in the queue.
+Repeat per scene (or a small handful in flight at once, not dozens - ZeroGPU
+queues shared Space requests) rather than recording a large batch of URLs
+before fetching any of them; a URL that sits unfetched risks the temp file
+being gone by the time you get to it. Never hold batch state in context.
+`status` is the only source of truth about what is left, and `retry` puts a
+failed scene back in the queue.
 
 ## A worked style.json
 
