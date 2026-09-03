@@ -3,6 +3,9 @@
     "allow": [
       "mcp__OpenArt__openart_creation_get",
       "mcp__Hugging_Face__gr1_z_image_turbo_generate_image",
+      "mcp__Hugging_Face__dynamic_space",
+      "mcp__Hugging_Face__hf_fs",
+      "mcp__Hugging_Face__hub_repo_search",
       "mcp__NextLev__search_viral_videos_small_channels",
       "Bash(curl -sS -o *)"
     ]
