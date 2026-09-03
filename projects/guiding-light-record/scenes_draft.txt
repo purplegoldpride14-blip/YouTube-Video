@@ -1,0 +1,279 @@
+[001]    0.02s   6.31s  word 1
+      On September eighteenth, two thousand nine, a television show ended after seventy two years on the air.
+
+[002]    6.33s   5.92s  word 18
+      Almost nobody noticed. The question here is not why a soap opera got cancelled.
+
+[003]   12.25s   3.17s  word 32
+      Soap operas get cancelled constantly.
+
+[004]   15.42s  11.96s  word 37
+      The real question is how the single longest running scripted program in the history of broadcasting could vanish without the kind of send off television usually reserves for something that old.
+
+[005]   27.38s   7.61s  word 68
+      The answer says less about this one show than it does about how quietly most of television actually disappears.
+
+[006]   34.99s   5.42s  word 87
+      The story starts in nineteen thirty seven, with a woman named Irna Phillips.
+
+[007]   40.41s   4.89s  word 100
+      Two years earlier, Phillips had given birth to a stillborn child at nineteen years old.
+
+[008]   45.30s   7.25s  word 115
+      In the aftermath, she found herself listening to the sermons of a preacher whose church centered on the brotherhood of man.
+
+[009]   52.55s   6.52s  word 136
+      Those broadcasts gave her something to hold onto, and that feeling became the seed of a new kind of radio program.
+
+[010]   59.07s   6.38s  word 157
+      She built a fifteen minute serial around a widowed minister named Reverend John Ruthledge,
+
+[011]   65.45s   4.44s  word 171
+      a man neighbors turned to when their lives went sideways.
+
+[012]   69.89s   7.98s  word 181
+      In his study sat a lamp, always lit, meant to represent the small guidance he offered anyone who walked through his door.
+
+[013]   77.87s   3.76s  word 203
+      Phillips named the show after that lamp.
+
+[014]   81.63s   4.52s  word 210
+      It debuted on N B C radio on January twenty fifth, nineteen thirty seven,
+
+[015]   86.15s   4.71s  word 224
+      and almost nobody involved could have guessed what it was actually starting.
+
+[016]   90.86s   8.20s  word 236
+      Phillips herself is barely remembered outside television history books, despite essentially inventing the format this entire genre still runs on.
+
+[017]   99.06s   8.80s  word 256
+      She went on to create another long running serial that actually stayed on the air one full year longer than this one did, closing out in two thousand ten.
+
+[018]  107.86s   4.21s  word 285
+      But even that show fell more than a decade short of this one's total run,
+
+[019]  112.07s   7.01s  word 300
+      because nothing else Phillips built carried the fifteen year radio head start this one had.
+
+[020]  119.08s   7.13s  word 315
+      Along the way, she pioneered techniques other writers borrowed for decades: cliffhangers timed to the end of every episode,
+
+[021]  126.22s   5.57s  word 334
+      and storylines that unfolded over months instead of wrapping up cleanly.
+
+[022]  131.78s   7.62s  word 345
+      Everything that makes a soap opera recognizably a soap opera traces back to decisions she made building this one show.
+
+[023]  139.40s   6.37s  word 365
+      The show moved to C B S radio in nineteen forty seven, and then, on June thirtieth, nineteen fifty two,
+
+[024]  145.77s   2.85s  word 385
+      it made the jump to C B S television,
+
+[025]  148.62s   7.00s  word 394
+      running in both formats side by side for a few overlapping years before radio quietly faded out entirely.
+
+[026]  155.62s   7.86s  word 412
+      From that first radio broadcast to its final television episode, the show stayed on the air for seventy two consecutive years.
+
+[027]  163.48s   5.94s  word 433
+      On television alone, it produced fifteen thousand, seven hundred and sixty two episodes.
+
+[028]  169.42s   5.50s  word 446
+      Counting the radio years, the total climbs past eighteen thousand five hundred.
+
+[029]  174.92s   6.64s  word 458
+      Guinness World Records eventually recognized it as the longest running scripted drama in the history of broadcasting,
+
+[030]  181.56s   5.81s  word 475
+      a title no other program, in any format, has come close to matching since.
+
+[031]  187.37s   9.68s  word 489
+      To put that number in perspective, a show airing five days a week for fifty two weeks a year would need to run for more than sixty years just to reach fifteen thousand episodes.
+
+[032]  197.05s   3.94s  word 523
+      This show did that, and then kept going for over a decade more.
+
+[033]  200.99s   4.36s  word 536
+      And unlike a weekly drama that gets roughly twenty two episodes a year to work with,
+
+[034]  205.36s   4.32s  word 552
+      a daily serial like this one produced that many episodes in about a month,
+
+[035]  209.68s   8.87s  word 566
+      which meant the cast was effectively shooting an entire season's worth of story every four weeks, year after year, for seven decades straight.
+
+[036]  218.54s   8.74s  word 589
+      A production running at that pace does not just accumulate episodes. It accumulates people, and this is where the story turns genuinely strange.
+
+[037]  227.28s   9.31s  word 612
+      Long before he was a movie star, Kevin Bacon spent nineteen eighty and nineteen eighty one playing a teenage alcoholic named Tim Werner on this show,
+
+[038]  236.60s   4.68s  word 638
+      years before Diner put him on the map and Footloose made him famous.
+
+[039]  241.27s   7.24s  word 651
+      In nineteen eighty nine, a young actress took a minor role as a babysitter for one of the show's most memorable characters.
+
+[040]  248.51s   6.07s  word 673
+      Her name was Calista Flockhart, eight years before Ally McBeal made her a household name.
+
+[041]  254.58s   8.34s  word 688
+      James Earl Jones passed through its cast. So did Cicely Tyson, Allison Janney, and a teenage Hayden Panettiere.
+
+[042]  262.92s   3.00s  word 706
+      None of them were famous yet when this show hired them.
+
+[043]  265.92s   2.68s  word 717
+      Most of them would not have been hireable anywhere else,
+
+[044]  268.60s  10.51s  word 727
+      because daytime drama was one of the only places a young or unproven actor could work steadily while learning the job in front of a live audience of millions.
+
+[045]  279.11s   8.91s  word 756
+      That is the part almost nobody connects to a single title: an entertainment institution operating quietly in the middle of the afternoon for seven decades,
+
+[046]  288.02s   7.72s  word 781
+      training a meaningful share of Hollywood's future household names before anyone outside daytime television was paying attention,
+
+[047]  295.74s   6.17s  word 798
+      while also quietly teaching primetime how to keep an audience hooked across years instead of episodes,
+
+[048]  301.91s  10.21s  word 814
+      a trick shows like Dallas and Dynasty borrowed wholesale once networks realized daytime's cliffhanger formula worked just as well after dark.
+
+[049]  312.12s   3.62s  word 835
+      Not everyone on the show was passing through on their way somewhere else.
+
+[050]  315.74s   5.07s  word 848
+      One actress, Kim Zimmer, played the same character, a woman named Reva Shayne,
+
+[051]  320.81s   3.75s  word 861
+      across nearly two thousand episodes spanning more than two decades,
+
+[052]  324.56s   6.47s  word 871
+      leaving and returning to the role twice before playing her one final time in the very last episode the show ever produced.
+
+[053]  331.03s  11.41s  word 893
+      Four decades into the show's run, viewers were still watching a character built in the nineteen eighties carry the finale of a series that started before television itself existed as a mass medium.
+
+[054]  342.44s   5.32s  word 926
+      And then, in April of two thousand nine, C B S cancelled it.
+
+[055]  347.76s   3.22s  word 939
+      The reasoning was almost aggressively unglamorous.
+
+[056]  350.98s   8.36s  word 945
+      By that point, the show had become the lowest rated of the eight daytime dramas still airing anywhere on American network television.
+
+[057]  359.34s   3.23s  word 967
+      It was averaging two point one seven million viewers,
+
+[058]  362.57s   7.66s  word 976
+      with a zero point nine rating among the women eighteen to forty nine that advertisers were actually paying to reach.
+
+[059]  370.23s   9.61s  word 996
+      Both numbers were sliding hard, down eighteen percent in total viewers and twenty five percent in that core demographic compared to the season before.
+
+[060]  379.84s   6.96s  word 1020
+      Underneath the ratings sat a broader shift that had nothing to do with the show's quality: the audience daytime dramas were built for,
+
+[061]  386.81s   8.93s  word 1043
+      women reliably at home in the middle of the day, had been shrinking for years as more women worked outside the house and found community elsewhere.
+
+[062]  395.73s   6.12s  word 1069
+      C B S was also simply looking for a cheaper hour of programming to fill the same slot.
+
+[063]  401.85s   7.63s  word 1087
+      A seventy two year run ended for essentially the same reasons a struggling show half its age gets cancelled every season.
+
+[064]  409.48s   4.49s  word 1108
+      Production wrapped its final scenes on August eleventh, two thousand nine.
+
+[065]  413.97s   3.59s  word 1119
+      The finale aired five weeks later, on September eighteenth,
+
+[066]  417.56s   6.23s  word 1128
+      closing with a one year flash forward that gave the audience a glimpse of where its characters would end up.
+
+[067]  423.79s   7.74s  word 1148
+      There was no primetime special built around it. No retrospective aired opposite it on a competing network.
+
+[068]  431.53s   8.39s  word 1165
+      Coverage existed, but nothing close to what greets the ending of a show people watch once a week and plan their evening around.
+
+[069]  439.92s   3.71s  word 1188
+      That gap is the actual turn in this story.
+
+[070]  443.63s   7.73s  word 1197
+      The ending of the longest running scripted program in broadcast history barely registered outside the community that had watched it for decades,
+
+[071]  451.36s   5.72s  word 1219
+      while shows a fraction of its age and total output get farewell tours that last for months.
+
+[072]  457.08s   5.40s  word 1236
+      That is not a contradiction. It is exactly how a habit disappears.
+
+[073]  462.48s   4.32s  word 1248
+      A daily program does not build the kind of anticipation a weekly event does,
+
+[074]  466.80s   6.93s  word 1262
+      because nobody spends a week looking forward to Tuesday afternoon the way they look forward to a season finale.
+
+[075]  473.73s   9.01s  word 1281
+      Something people watched every single day for seventy two years left behind less cultural memory than a single viral season of a show that lasted six.
+
+[076]  482.74s   3.93s  word 1307
+      And this show was not the last one to go quietly.
+
+[077]  486.67s   6.97s  word 1318
+      Within three years, three more of the eight daytime dramas still airing when it ended had also been cancelled, one after another,
+
+[078]  493.64s   4.91s  word 1340
+      for close to identical reasons: shrinking ratings, an aging audience,
+
+[079]  498.55s   6.33s  word 1350
+      and networks unwilling to keep funding an expensive daily hour of scripted drama.
+
+[080]  504.88s   5.58s  word 1363
+      By the middle of the twenty tens, only three network daytime soaps were left standing in the entire country,
+
+[081]  510.46s   5.05s  word 1382
+      down from more than a dozen at the genre's peak decades earlier.
+
+[082]  515.51s   4.78s  word 1394
+      This show was not an isolated case of one program losing its footing.
+
+[083]  520.29s   8.73s  word 1407
+      It was the biggest domino in a collapse that had already started, and its sheer size was the only thing that made its fall worth remarking on at all.
+
+[084]  529.02s   3.62s  word 1436
+      None of that erases what actually happened here.
+
+[085]  532.64s   5.72s  word 1444
+      A woman processing a personal loss built a small radio drama around a lamp in a minister's study,
+
+[086]  538.36s   8.11s  word 1462
+      and it grew into a machine that ran for seventy two straight years, produced more episodes than almost anything else broadcast in that time,
+
+[087]  546.47s   5.73s  word 1486
+      quietly wrote the rulebook the entire soap genre and half of primetime drama still follows,
+
+[088]  552.20s   8.86s  word 1501
+      and trained a startling number of the actors who would go on to define American film and television, all while most of the country never thought about it twice.
+
+[089]  561.06s   4.07s  word 1530
+      Today, only a handful of daytime dramas remain on the air at all,
+
+[090]  565.13s   6.24s  word 1543
+      and none of them will realistically live long enough to challenge the record this one still holds.
+
+[091]  571.37s   7.58s  word 1560
+      The longest story television ever told did not end with a bang, and it never really needed one.
+
+[092]  578.95s   5.18s  word 1578
+      It ended the way it had survived every single year before that one: another Tuesday,
+
+[093]  584.13s   4.50s  word 1593
+      another quiet episode, until there simply was not another one left to make.
+
