@@ -1,0 +1,291 @@
+[001]    0.48s   5.90s  word 1
+      You are watching a man who has spent his entire adult life losing, finally winning.
+
+[002]    6.38s   3.15s  word 16
+      It is nineteen eighty eight. His name is Cliff Barnes,
+
+[003]    9.53s   7.77s  word 26
+      and the company he just took away from his lifelong rival was stolen from his own father almost sixty years earlier.
+
+[004]   17.30s   5.70s  word 47
+      The question is not whether soap operas do revenge well. Every soap does revenge.
+
+[005]   23.00s   8.23s  word 61
+      The better question is why three of the biggest soaps on American television in the nineteen eighties kept reaching for one specific shape of it,
+
+[006]   31.22s   6.54s  word 86
+      over and over, across different networks and different decades: not a wife getting even with a husband,
+
+[007]   37.76s   6.19s  word 103
+      not one executive getting even with another, but a father, quiet and underestimated for years,
+
+[008]   43.95s   4.31s  word 118
+      finally delivering the payback nobody in the room saw coming.
+
+[009]   48.26s   8.66s  word 128
+      The first one starts in Texas in nineteen thirty, decades before Dallas ever aired a single episode of the story it was actually telling.
+
+[010]   56.91s   8.07s  word 152
+      A young wildcatter named Digger Barnes met another wildcatter named Jock Ewing riding in a boxcar on the way to the oil fields.
+
+[011]   64.98s   5.94s  word 175
+      They became partners. Digger could smell oil underground before anyone drilled for it,
+
+[012]   70.93s   4.34s  word 188
+      and Jock had the business instincts to turn that talent into money.
+
+[013]   75.27s   4.48s  word 200
+      Together they built the beginning of what would become Ewing Oil.
+
+[014]   79.75s   8.47s  word 211
+      Then Jock put one of their most valuable fields in his own name alone, claiming he was protecting the partnership from Digger's drinking and gambling.
+
+[015]   88.22s   2.62s  word 236
+      Digger never accepted that explanation.
+
+[016]   90.84s   6.47s  word 241
+      He spent the rest of his life insisting his own partner had swindled him out of half of everything they had built together,
+
+[017]   97.30s   3.70s  word 264
+      and he died in nineteen eighty still believing it.
+
+[018]  101.01s   2.56s  word 273
+      The betrayal was not only financial.
+
+[019]  103.57s   7.49s  word 279
+      Digger had once been involved with a woman named Ellie, and by the time the partnership fell apart, Jock had married her instead.
+
+[020]  111.06s   5.77s  word 302
+      So the grudge Digger carried for the rest of his life was never simply about a signature on an oil lease.
+
+[021]  116.83s   5.00s  word 323
+      It was about a friend who had, in Digger's mind, taken the field, the fortune, and the woman,
+
+[022]  121.83s   5.69s  word 341
+      and then had the nerve to build a respected family name on top of all three.
+
+[023]  127.52s   6.95s  word 357
+      Decades later, a document actually surfaced suggesting the three original partners had split the company equally after all,
+
+[024]  134.47s   5.41s  word 375
+      and that Jock had only bought the others out later, on ordinary business terms.
+
+[025]  139.88s   5.31s  word 389
+      It did not matter. By then Digger was long dead, and the story the family told itself,
+
+[026]  145.19s   5.94s  word 406
+      generation after generation, was the one about the swindle, not the one about the paperwork.
+
+[027]  151.12s   8.46s  word 421
+      His son Cliff inherited the grudge along with the name. For most of the show's run, that inheritance looked like a joke.
+
+[028]  159.59s   6.25s  word 443
+      Cliff went up against Jock's son, J R Ewing, again and again, and lost again and again,
+
+[029]  165.84s   5.23s  word 460
+      outmaneuvered by a man who treated business the way other people played poker.
+
+[030]  171.06s   3.30s  word 473
+      Audiences watched Cliff get humiliated for years.
+
+[031]  174.37s   7.50s  word 480
+      Then, in the final season, with an ally named Carter McKay in his corner, Cliff finally did what his father never lived to see:
+
+[032]  181.87s   3.91s  word 504
+      he took Ewing Oil away from the Ewings completely.
+
+[033]  185.78s   6.47s  word 513
+      J R ended the series alone in his family home, having lost the company, the ranch, and his own wife and children,
+
+[034]  192.25s   5.01s  word 535
+      holding a gun and wondering out loud if he had ever mattered to anyone.
+
+[035]  197.26s   4.73s  word 549
+      The revenge that finished the story was not delivered by the man who was wronged.
+
+[036]  201.99s   6.92s  word 564
+      It was delivered by his son, almost six decades later, which is the first thing these stories have in common:
+
+[037]  208.91s   4.31s  word 584
+      the payback does not need to arrive on the same lifetime as the grievance.
+
+[038]  213.22s   7.85s  word 598
+      It only needs someone left standing who is willing to collect it, no matter how long that takes or how many times that person loses along the way.
+
+[039]  221.06s   4.48s  word 626
+      The second story starts quieter, and that is exactly the point.
+
+[040]  225.55s   7.40s  word 637
+      In nineteen eighty two, a new character arrived in the fictional town of Salem calling himself simply the father of a man already living there,
+
+[041]  232.94s   3.79s  word 662
+      a businessman looking to expand into a new city.
+
+[042]  236.74s   2.91s  word 671
+      Nothing about the introduction suggested a threat.
+
+[043]  239.65s   6.37s  word 678
+      His name was Stefano DiMera, and the man he had actually come to destroy was a police officer named Roman Brady,
+
+[044]  246.01s   7.10s  word 699
+      who had once worked with an international agency on an operation aimed at bringing Stefano down.
+
+[045]  253.11s   7.26s  word 715
+      Stefano knew exactly who Roman was, and Roman had every reason to assume the danger had already passed.
+
+[046]  260.37s   5.34s  word 733
+      A businessman moving to town to be near his son did not read as a declaration of war.
+
+[047]  265.71s   6.36s  word 751
+      That misjudgment was the entire strategy. Stefano did not need Roman to fear him.
+
+[048]  272.07s   5.24s  word 765
+      He needed Roman to stop watching him, and a friendly introduction bought exactly that.
+
+[049]  277.31s   6.11s  word 779
+      He watched, and he waited, and in nineteen eighty three he made his first move: he had an associate,
+
+[050]  283.42s   5.94s  word 798
+      who he had surgically altered to resemble his own son so he could move through the family undetected,
+
+[051]  289.36s   7.77s  word 816
+      help frame Roman for a string of unsolved killings the town had come to call the Salem Strangler murders.
+
+[052]  297.13s   5.04s  word 835
+      The most efficient revenge in this story never announced itself as revenge at all.
+
+[053]  302.17s   5.63s  word 849
+      It borrowed a family member's face to get through the front door. That was only the opening move.
+
+[054]  307.80s   8.92s  word 867
+      In nineteen eighty four, Stefano lured Roman into a confrontation on a cliffside, and Roman fell, presumed dead in his own brother's arms.
+
+[055]  316.72s   5.21s  word 890
+      What the Brady family did not know was that Stefano had not simply let him die.
+
+[056]  321.93s   7.10s  word 906
+      He had taken the body, and in its place inserted a man who had been secretly brainwashed into believing he actually was Roman,
+
+[057]  329.04s   4.75s  word 929
+      sending that stranger back into the family to live a life that was not his.
+
+[058]  333.78s   4.59s  word 944
+      For years, a family grieved a man who might not have been entirely gone,
+
+[059]  338.38s   5.54s  word 958
+      while unknowingly welcoming someone else's mind wearing his face into their home.
+
+[060]  343.91s   5.79s  word 970
+      Then, in nineteen eighty five, Stefano escalated again: blaming the Bradys for the death of his own daughter,
+
+[061]  349.70s   4.70s  word 988
+      he kidnapped Roman's infant twins, a boy and a girl barely old enough to be christened,
+
+[062]  354.40s   5.64s  word 1004
+      as the next installment in a revenge campaign that showed no sign of considering itself finished.
+
+[063]  360.04s   6.91s  word 1020
+      It would take until nineteen ninety one for Stefano to even admit out loud what he had actually done: that the disappearance,
+
+[064]  366.95s   5.29s  word 1042
+      the double, and the brainwashing had all been his design from the start.
+
+[065]  372.24s   5.81s  word 1055
+      By the time that confession aired, the audience had already spent years assuming the worst was over.
+
+[066]  378.05s   7.83s  word 1072
+      That is the turn in this entire story. This was never one father delivering one act of payback in one episode.
+
+[067]  385.88s   8.28s  word 1093
+      It was a revenge campaign that spanned years, spanned identities, and eventually reached children who had not even been born when the original grudge began.
+
+[068]  394.16s   2.58s  word 1118
+      Digger Barnes wanted one oil field back.
+
+[069]  396.74s   4.46s  word 1125
+      Stefano DiMera wanted a family destroyed across generations,
+
+[070]  401.21s   6.59s  word 1133
+      and he was patient enough to build the destruction one scheme at a time rather than rush it.
+
+[071]  407.80s   6.09s  word 1151
+      None of this happened by accident, and it did not happen because soap writers were simply obsessed with fathers.
+
+[072]  413.89s   6.85s  word 1170
+      It happened because of who was watching, and because of how much time these shows actually had to spend a grudge properly.
+
+[073]  420.74s   8.82s  word 1192
+      The audience for daytime drama in this era was overwhelmingly women managing households where they were routinely underestimated by the men making decisions around them,
+
+[074]  429.56s   4.88s  word 1217
+      in business, in money, in whose judgment counted in a room.
+
+[075]  434.45s   5.64s  word 1228
+      A father figure who gets quietly dismissed for years and then wins anyway is not just a plot.
+
+[076]  440.09s   7.95s  word 1246
+      It is a stand-in for every viewer who has ever been counted out and wanted, just once, to watch someone like them prove everybody wrong.
+
+[077]  448.04s   5.10s  word 1271
+      And these stories had the runway to make that payoff feel earned instead of convenient.
+
+[078]  453.14s   5.45s  word 1286
+      A weekly primetime drama gets roughly twenty two episodes a year to build toward a reversal.
+
+[079]  458.58s   3.01s  word 1302
+      A daily soap produced that many episodes in about a month,
+
+[080]  461.60s   6.09s  word 1313
+      which meant a grudge like Digger's or a scheme like Stefano's could breathe across real calendar years,
+
+[081]  467.69s   6.82s  word 1330
+      with actors visibly aging and children growing up on screen the same way they do in an actual family.
+
+[082]  474.50s   5.16s  word 1349
+      By the time the payoff finally landed, it did not feel like a twist a writer invented on a deadline.
+
+[083]  479.67s   4.78s  word 1369
+      It felt like something that had been earning its own weight the entire time you were watching.
+
+[084]  484.45s   6.29s  word 1386
+      There is also a simpler, more practical reason these particular storylines kept recurring:
+
+[085]  490.74s   8.76s  word 1399
+      a father with money, a business, or a family name was the character who had the most to lose and the most tools to lose it with.
+
+[086]  499.50s   5.01s  word 1426
+      A wronged son could get angry. A wronged father could quietly rewrite a will,
+
+[087]  504.51s   5.07s  word 1440
+      redirect a company, or spend a decade building a case nobody else knew existed.
+
+[088]  509.57s   7.18s  word 1454
+      Revenge needs leverage, and on these shows, leverage almost always belonged to the men who already controlled the oil field,
+
+[089]  516.75s   3.45s  word 1474
+      the corporation, or the family fortune.
+
+[090]  520.21s   8.63s  word 1480
+      Underestimating one of them was not just a personal misjudgment. It was a strategic one, and the whole plot existed to punish it.
+
+[091]  528.84s   7.07s  word 1503
+      That is also why almost nobody who did not grow up with these shows would guess how enormous these storylines actually were.
+
+[092]  535.90s   3.27s  word 1525
+      A twist that unfolds over one episode is a plot point.
+
+[093]  539.17s   6.27s  word 1536
+      A twist that unfolds over five years, told across a format most of the television industry treated as disposable,
+
+[094]  545.44s   3.67s  word 1555
+      does not get remembered as a great piece of storytelling.
+
+[095]  549.12s   8.48s  word 1565
+      It gets remembered, if at all, as something your mother used to watch in the afternoon. Cliff Barnes waited almost sixty years.
+
+[096]  557.60s   8.78s  word 1587
+      Stefano DiMera never really stopped waiting at all. On these shows, patience was never treated as a virtue standing quietly off to the side of the plot.
+
+[097]  566.38s   5.58s  word 1614
+      It was the plot, running underneath every other storyline, for as long as the network kept the lights on.
+
