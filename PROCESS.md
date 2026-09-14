@@ -69,7 +69,7 @@ immediately rather than working around them silently.
 
 ## The numbers, and why
 
-**Script: 1,600-1,700 words, hard band 1,550-1,750.** About ten to eleven
+**Script: 1,450-1,550 words, hard band 1,400-1,600.** About nine to ten
 minutes narrated. Warn on small drift, fail on real drift.
 
 **TTS split: under 10,000 characters per part, balanced.** 10,000 is the engine's
