@@ -151,7 +151,14 @@ def main():
            "-i", listfile, "-i", wav] + vargs
     if a.normalize:
         cmd += ["-af", f"loudnorm=I={TARGET_LUFS}:TP={TARGET_TP}:LRA={TARGET_LRA}"]
-    cmd += ["-c:a", "aac", "-b:a", "192k", "-shortest", "-movflags", "+faststart", out_path]
+    # -shortest alone can overshoot by up to a keyframe when the video stream is
+    # concatenated with -c:v copy (the kenburns path) - per-segment frame-count
+    # rounding can leave the video a few frames longer than the audio, and copy
+    # mode can only cut on a frame boundary in the last copied segment, not a
+    # sample-accurate point. -t pinned to the audio's exact decoded duration
+    # guarantees the visuals never outlast the track, regardless of motion mode.
+    cmd += ["-c:a", "aac", "-b:a", "192k", "-shortest", "-t", f"{meta['duration_sec']:.6f}",
+            "-movflags", "+faststart", out_path]
 
     print("Encoding...")
     run(cmd)
