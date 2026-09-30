@@ -1,0 +1,11 @@
+{
+  "slug": "late-80s-rnb-boyband-ballad",
+  "created": "2026-09-30",
+  "niche": "Nostalgic AI Music Videos",
+  "topic": "Late 1980s/early 1990s contemporary R&B boy band ballad, song-driven with no narration script",
+  "title": "I Don't Have The Heart To (1989) | R&B Boy Band Ballad",
+  "no_hashtags": true,
+  "style_locked": false,
+  "format": "music_video",
+  "notes": "No script/narration stage - audio is a ballad track supplied by the user. Descript's ASR returned an empty transcript (no clearly recognized lyrics) and its AI editor confirmed it has no audio-listening capability, so song content was assessed via librosa signal analysis instead: ~129 BPM raw beat-track reading (likely a double-time artifact on what feels like a slower ballad pulse), with a clear four-part energy structure - quiet intro (0-8s), verse 1 build (8-46s), chorus 1 plateau (46-90s), a dip (90-102s), a long climactic bridge/final-chorus peak (102-174s, the loudest sustained stretch), and a fade outro (174-203.64s). Visual treatment: a boy-band group performance thread (moody late-80s/early-90s R&B studio photography, gelled colored lighting) intercut with a couple's-relationship-fraying flashback thread, mapped to the song's loud/quiet structure - group carries the chorus/bridge peaks, couple carries the verses, bookended by a matching solitary shot at intro and outro."
+}
