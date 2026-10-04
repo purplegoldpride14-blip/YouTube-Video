@@ -1,0 +1,11 @@
+{
+  "slug": "marcus-vale-say-it-without-words",
+  "created": "2026-10-04",
+  "niche": "Nostalgic AI Music Videos",
+  "topic": "Late 1980s R&B ballad about a love coming to an end, song-driven with no narration script",
+  "title": "Marcus Vale - Call Your Name",
+  "no_hashtags": true,
+  "style_locked": false,
+  "format": "music_video",
+  "notes": "Third video in the Nostalgic AI Music Videos niche. No audio file was supplied by the user (too large to attach) - only the exact track duration, 223.966s. The user will add the audio track themselves, so this project delivers a silent visual-only montage (no merged.wav/audio_merge.py run) instead of a narrated/mixed final.mp4. Scene 1 is the user's own provided album cover image, used as-is - not AI-generated. Marcus's likeness is locked from that same album cover via OpenArt image2image (visualReferences), not text description alone - an initial text-only attempt at scene 2 did not read as the same person, so every scene featuring Marcus was regenerated/generated with the uploaded cover as a reference image. New primary setting this time: a late-night bus/train station (payphones, departure board, neon-on-rain), with the apartment used as a secondary flashback location for happier-times memories, narratively distinct from the previous video's WOMAN character."
+}
