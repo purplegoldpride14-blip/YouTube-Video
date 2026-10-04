@@ -1,0 +1,226 @@
+[
+  {
+    "n": 1,
+    "start": 0.0,
+    "end": 7.5,
+    "dur": 7.5,
+    "vignette": "00_bookend_alone",
+    "thread": "SCENE"
+  },
+  {
+    "n": 2,
+    "start": 7.5,
+    "end": 14.336,
+    "dur": 6.835669,
+    "vignette": "01_the_good_times",
+    "thread": "SCENE"
+  },
+  {
+    "n": 3,
+    "start": 14.336,
+    "end": 22.378,
+    "dur": 8.041963,
+    "vignette": "01_the_good_times",
+    "thread": "SCENE"
+  },
+  {
+    "n": 4,
+    "start": 22.378,
+    "end": 31.626,
+    "dur": 9.248257,
+    "vignette": "01_the_good_times",
+    "thread": "SCENE"
+  },
+  {
+    "n": 5,
+    "start": 31.626,
+    "end": 38.462,
+    "dur": 6.835669,
+    "vignette": "01_the_good_times",
+    "thread": "SCENE"
+  },
+  {
+    "n": 6,
+    "start": 38.462,
+    "end": 46.504,
+    "dur": 8.041963,
+    "vignette": "01_the_good_times",
+    "thread": "SCENE"
+  },
+  {
+    "n": 7,
+    "start": 46.504,
+    "end": 55.752,
+    "dur": 9.248257,
+    "vignette": "02_the_cracks_begin",
+    "thread": "SCENE"
+  },
+  {
+    "n": 8,
+    "start": 55.752,
+    "end": 62.587,
+    "dur": 6.835669,
+    "vignette": "02_the_cracks_begin",
+    "thread": "SCENE"
+  },
+  {
+    "n": 9,
+    "start": 62.587,
+    "end": 70.629,
+    "dur": 8.041963,
+    "vignette": "02_the_cracks_begin",
+    "thread": "SCENE"
+  },
+  {
+    "n": 10,
+    "start": 70.629,
+    "end": 79.878,
+    "dur": 9.248257,
+    "vignette": "02_the_cracks_begin",
+    "thread": "SCENE"
+  },
+  {
+    "n": 11,
+    "start": 79.878,
+    "end": 86.713,
+    "dur": 6.835669,
+    "vignette": "02_the_cracks_begin",
+    "thread": "SCENE"
+  },
+  {
+    "n": 12,
+    "start": 86.713,
+    "end": 94.755,
+    "dur": 8.041963,
+    "vignette": "03_last_good_night",
+    "thread": "SCENE"
+  },
+  {
+    "n": 13,
+    "start": 94.755,
+    "end": 104.004,
+    "dur": 9.248257,
+    "vignette": "03_last_good_night",
+    "thread": "SCENE"
+  },
+  {
+    "n": 14,
+    "start": 104.004,
+    "end": 110.839,
+    "dur": 6.835669,
+    "vignette": "03_last_good_night",
+    "thread": "SCENE"
+  },
+  {
+    "n": 15,
+    "start": 110.839,
+    "end": 118.881,
+    "dur": 8.041963,
+    "vignette": "03_last_good_night",
+    "thread": "SCENE"
+  },
+  {
+    "n": 16,
+    "start": 118.881,
+    "end": 128.129,
+    "dur": 9.248257,
+    "vignette": "03_last_good_night",
+    "thread": "SCENE"
+  },
+  {
+    "n": 17,
+    "start": 128.129,
+    "end": 134.965,
+    "dur": 6.835669,
+    "vignette": "04_the_argument",
+    "thread": "SCENE"
+  },
+  {
+    "n": 18,
+    "start": 134.965,
+    "end": 143.007,
+    "dur": 8.041963,
+    "vignette": "04_the_argument",
+    "thread": "SCENE"
+  },
+  {
+    "n": 19,
+    "start": 143.007,
+    "end": 152.255,
+    "dur": 9.248257,
+    "vignette": "04_the_argument",
+    "thread": "SCENE"
+  },
+  {
+    "n": 20,
+    "start": 152.255,
+    "end": 159.091,
+    "dur": 6.835669,
+    "vignette": "04_the_argument",
+    "thread": "SCENE"
+  },
+  {
+    "n": 21,
+    "start": 159.091,
+    "end": 167.133,
+    "dur": 8.041963,
+    "vignette": "04_the_argument",
+    "thread": "SCENE"
+  },
+  {
+    "n": 22,
+    "start": 167.133,
+    "end": 176.381,
+    "dur": 9.248257,
+    "vignette": "05_the_goodbye",
+    "thread": "SCENE"
+  },
+  {
+    "n": 23,
+    "start": 176.381,
+    "end": 183.217,
+    "dur": 6.835669,
+    "vignette": "05_the_goodbye",
+    "thread": "SCENE"
+  },
+  {
+    "n": 24,
+    "start": 183.217,
+    "end": 191.259,
+    "dur": 8.041963,
+    "vignette": "05_the_goodbye",
+    "thread": "SCENE"
+  },
+  {
+    "n": 25,
+    "start": 191.259,
+    "end": 200.507,
+    "dur": 9.248257,
+    "vignette": "05_the_goodbye",
+    "thread": "SCENE"
+  },
+  {
+    "n": 26,
+    "start": 200.507,
+    "end": 207.343,
+    "dur": 6.835669,
+    "vignette": "06_outro_alone",
+    "thread": "SCENE"
+  },
+  {
+    "n": 27,
+    "start": 207.343,
+    "end": 215.385,
+    "dur": 8.041963,
+    "vignette": "06_outro_alone",
+    "thread": "SCENE"
+  },
+  {
+    "n": 28,
+    "start": 215.385,
+    "end": 224.633,
+    "dur": 9.248,
+    "vignette": "06_outro_alone",
+    "thread": "SCENE"
+  }
+]

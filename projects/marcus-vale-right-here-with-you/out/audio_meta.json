@@ -1,0 +1,12 @@
+{
+  "parts": [],
+  "sample_rate": 44100,
+  "part_samples": [],
+  "part_offsets_sec": [
+    0.0
+  ],
+  "total_samples": 9906315,
+  "duration_sec": 224.633,
+  "merged_wav": "merged.wav",
+  "loudness": null
+}
